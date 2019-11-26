@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:isgar="http://www.broservices.nl/xsd/isgar/0.5"
+<xs:schema xmlns:isgar="http://www.broservices.nl/xsd/isgar/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:garcom="http://www.broservices.nl/xsd/garcommon/0.5"
-           xmlns:om="http://www.opengis.net/om/2.0"
+           xmlns:garcom="http://www.broservices.nl/xsd/garcommon/1.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/isgar/0.5"
+           targetNamespace="http://www.broservices.nl/xsd/isgar/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.5.0">
+           version="0.6.0">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -18,78 +17,21 @@
    </xs:annotation>
 
     <!--
-   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/0.5" schemaLocation="https://schema.broservices.nl/xsd/garcommon/0.9/garcommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="https://schema.broservices.nl/profile/om/1.0/om-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/garcommon/1.0/garcommon.xsd"/>
    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
     -->
-   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/0.5" schemaLocation="garcommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="om-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="garcommon.xsd"/>
    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
 
    <xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
    <xs:element name="parseFault" type="brocom:ParseFaultType" />
 
-   <xs:element name="GAR" type="isgar:GARType" substitutionGroup="gml:AbstractFeature">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument dat een grondwatersamenstellingsonderzoek in zijn volledigheid beschrijft.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="GARType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="objectIdAccountableParty"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="xs:string">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
-Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="qualityControlMethod"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="garcom:QualityControlMethodType">
-                  <xs:annotation>
-                     <xs:appinfo>
-                        <CodeListName>QualityControlMethod</CodeListName>
-                        <CodeListURI/>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het protocol of werkvoorschrift dat is toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="groundwaterMonitoringNet"
-                           nillable="false"
-                           type="garcom:GroundwaterMonitoringNetPropertyType"/>
-               <xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="monitoringPoint"
-                           nillable="false"
-                           type="garcom:GMW_MonitoringTubePropertyType"/>
-               <xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="observation"
-                           nillable="false"
-                           type="om:OM_ObservationPropertyType"/>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="GARPropertyType">
-      <xs:sequence minOccurs="1">
-         <xs:element ref="isgar:GAR"/>
-      </xs:sequence>
-   </xs:complexType>
-
    <xs:element name="correctionRequest" type="isgar:CorrectionRequestType">
       <xs:annotation>
          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht CorrectionRequest is een specialisatie van de abstract klasse CorrectionRequest uit de package brocommon, waaraan het een correctiereden en een brondocument toevoegt. Met een CorrectionRequest, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, worden in de registratie opgenomen gegevens vervangen.
-Explanation: Gegevens over een registratieobject zonder levenscyclus, zoals bij een grondwatersamenstellingsonderzoek, worden eenmalig geregistreerd. Met een correctieverzoek kunnen fouten in geregistreerde gegevens in de BRO worden verbeterd. Vervangen houdt in dat alle in de registratie opgenomen gegevens van een registratieobject worden vervangen door de gegevens in het brondocument van het correctieverzoek.</xs:documentation>
+            Explanation: Gegevens over een registratieobject zonder levenscyclus, zoals bij een grondwatersamenstellingsonderzoek, worden eenmalig geregistreerd. Met een correctieverzoek kunnen fouten in geregistreerde gegevens in de BRO worden verbeterd. Vervangen houdt in dat alle in de registratie opgenomen gegevens van een registratieobject worden vervangen door de gegevens in het brondocument van het correctieverzoek.</xs:documentation>
       </xs:annotation>
    </xs:element>
    <xs:complexType name="CorrectionRequestType">
@@ -143,6 +85,68 @@ Explanation: Gegevens over een registratieobject zonder levenscyclus, zoals bij 
             </xs:sequence>
          </xs:extension>
       </xs:complexContent>
+   </xs:complexType>
+
+   <xs:element name="GAR"
+               type="isgar:GARType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument dat een grondwatersamenstellingsonderzoek in zijn volledigheid beschrijft.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GARType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="objectIdAccountableParty"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
+                        Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityControlMethod"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="garcom:QualityControlMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>QualityControlMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het protocol of werkvoorschrift dat is toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1"
+                           maxOccurs="unbounded"
+                           name="groundwaterMonitoringNet"
+                           nillable="false"
+                           type="garcom:GroundwaterMonitoringNetPropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="monitoringPoint"
+                           nillable="false"
+                           type="garcom:GMW_MonitoringTubePropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="fieldResearch"
+                           nillable="false"
+                           type="garcom:FieldResearchType"/>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="laboratoryAnalysis"
+                           nillable="false"
+                           type="garcom:LaboratoryAnalysisType"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GARPropertyType">
+      <xs:sequence minOccurs="1">
+         <xs:element ref="isgar:GAR"/>
+      </xs:sequence>
    </xs:complexType>
 
    <xs:complexType name="CorrectionReasonType">

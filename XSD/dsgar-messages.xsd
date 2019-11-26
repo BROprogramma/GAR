@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:dsgar="http://www.broservices.nl/xsd/dsgar/0.5"
+<xs:schema xmlns:dsgar="http://www.broservices.nl/xsd/dsgar/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:garcom="http://www.broservices.nl/xsd/garcommon/0.5"
-           xmlns:om="http://www.opengis.net/om/2.0"
+           xmlns:garcom="http://www.broservices.nl/xsd/garcommon/1.0"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/dsgar/0.5"
+           targetNamespace="http://www.broservices.nl/xsd/dsgar/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.5.0">
+           version="0.6.0">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -18,12 +17,10 @@
 
     <!--
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/0.5" schemaLocation="https://schema.broservices.nl/xsd/garcommon/0.9/garcommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="https://schema.broservices.nl/profile/om/1.0/om-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/garcommon/1.0/garcommon.xsd"/>
     -->
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/0.5" schemaLocation="garcommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="om-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="garcommon.xsd"/>
 
    <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />
    <xs:element name="parseFault" type="brocom:ParseFaultType" />
@@ -55,7 +52,7 @@
                type="dsgar:GAR_OType"
                substitutionGroup="brocom:RegistrationObject">
       <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over een grondwatersamenstellingsonderzoek registratieobject in de basisregistratie ondergrond, dat niet uit registratie is genomen en welke verstrekt worden aan een aanvrager die niet bronhouder noch dataleverancier van het registratieobject is.</xs:documentation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over een Grondwatersamenstellingsonderzoek registratieobject in de basisregistratie ondergrond, dat niet uit registratie is genomen en welke verstrekt worden aan een aanvrager die niet bronhouder noch dataleverancier van het registratieobject is.</xs:documentation>
       </xs:annotation>
    </xs:element>
    <xs:complexType name="GAR_OType">
@@ -94,10 +91,15 @@
                            nillable="false"
                            type="garcom:GMW_MonitoringTubePropertyType"/>
                <xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="observation"
+                           maxOccurs="1"
+                           name="fieldResearch"
                            nillable="false"
-                           type="om:OM_ObservationPropertyType"/>
+                           type="garcom:FieldResearchType"/>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="laboratoryAnalysis"
+                           nillable="false"
+                           type="garcom:LaboratoryAnalysisType"/>
             </xs:sequence>
          </xs:extension>
       </xs:complexContent>

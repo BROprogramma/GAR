@@ -1,54 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions name="isgar"
-                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-                  xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
-                  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                  xmlns:msg="http://www.broservices.nl/xsd/isgar/0.5"
-                  xmlns:tns="http://www.broservices.nl/wsdl/isgar/0.1"
-                  targetNamespace="http://www.broservices.nl/wsdl/isgar/0.1">
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msg="http://www.broservices.nl/xsd/isgar/1.0"
+    xmlns:tns="http://www.broservices.nl/wsdl/isgar/1.0"
+    targetNamespace="http://www.broservices.nl/wsdl/isgar/1.0">
 
     <wsdl:documentation>
         This  WSDL defines the webservice for the GAR intake webservice (GroundwaterQualityMeasurementReports)
         in the context of the baseregistry subsurface (Basisregistratie Ondergrond).
-        This is version 0.1.0
-        Changes compared to Version:0.1.0:
+        This is version 1.0.0
+        Changes compared to Version:1.0.0:
         -
     </wsdl:documentation>
 
+    <!--
+    <wsdl:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" location="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    -->
+    <wsdl:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" location="brocommon.xsd"/>
+
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isgar/0.1" targetNamespace="http://www.broservices.nl/wsdl/isgar/0.1">
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isgar/1.0" targetNamespace="http://www.broservices.nl/wsdl/isgar/1.0">
             <!--
-            <xsd:import namespace="http://www.broservices.nl/xsd/isgar/0.5" schemaLocation="https://schema.broservices.nl/xsd/isgar/0.9/isgar-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/isgar/1.0" schemaLocation="https://schema.broservices.nl/xsd/isgar/1.0/isgar-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd" />
             -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/isgar/0.5" schemaLocation="isgar-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/isgar/1.0" schemaLocation="isgar-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd" />
         </xsd:schema>
     </wsdl:types>
 
     <wsdl:message name="registrationRequest">
-        <wsdl:part element="msg:registrationRequest" name="request" />
+        <wsdl:part name="request" element="msg:registrationRequest" />
+    </wsdl:message>
+
+    <wsdl:message name="correctionRequest">
+        <wsdl:part name="request" element="msg:correctionRequest" />
     </wsdl:message>
 
     <wsdl:message name="intakeResponse">
-        <wsdl:part element="msg:intakeResponse" name="response" />
+        <wsdl:part name="response" element="msg:intakeResponse" />
     </wsdl:message>
 
     <wsdl:message name="parseSoapFault">
-        <wsdl:part element="msg:parseFault" name="parseFault" />
+        <wsdl:part name="parseFault" element="msg:parseFault" />
     </wsdl:message>
 
     <wsdl:message name="DeliveryResponsiblePartyHeader">
-        <wsdl:part element="brocom:deliveryResponsibleParty" name="deliveryResponsibleParty"></wsdl:part>
+        <wsdl:part name="deliveryResponsibleParty" element="brocom:deliveryResponsibleParty" />
     </wsdl:message>
 
     <wsdl:portType name="isgar">
         <wsdl:operation name="register">
             <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wus/isgar/registrationRequest" />
             <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/isgar/intakeResponse" />
-            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/isgar/parseSoapFault" />
+            <wsdl:fault name="parseFault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/isgar/parseSoapFault" />
+        </wsdl:operation>
+        <wsdl:operation name="correct">
+            <wsdl:input message="tns:correctionRequest" wsam:Action="http://www.broservices.nl/wus/isgar/correctionRequest" />
+            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/isgar/intakeResponse" />
+            <wsdl:fault name="parseFault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/isgar/parseSoapFault" />
         </wsdl:operation>
     </wsdl:portType>
 
@@ -64,7 +78,20 @@
                 <soap:body use="literal" />
             </wsdl:output>
             <wsdl:fault name="parseFault">
-                <soap:fault use="literal" name="parseFault" />
+                <soap:fault name="parseFault" use="literal" />
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="correct">
+            <soap:operation soapAction="" style="document" />
+            <wsdl:input>
+                <soap:body use="literal" />
+                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+            <wsdl:fault name="parseFault">
+                <soap:fault name="parseFault" use="literal" />
             </wsdl:fault>
         </wsdl:operation>
     </wsdl:binding>

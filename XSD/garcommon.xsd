@@ -1,343 +1,521 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:garcom="http://www.broservices.nl/xsd/garcommon/0.5"
+<xs:schema xmlns:garcom="http://www.broservices.nl/xsd/garcommon/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:om="http://www.opengis.net/om/2.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/garcommon/0.5"
+           targetNamespace="http://www.broservices.nl/xsd/garcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.5.0">
+           version="0.6.0">
 
-   <xs:annotation>
-      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
-         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
-      </xs:appinfo>
-   </xs:annotation>
+    <xs:annotation>
+        <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+            <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+        </xs:appinfo>
+    </xs:annotation>
 
     <!--
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="https://schema.broservices.nl/profile/om/1.0/om-profile.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     -->
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="om-profile.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
-   <xs:element name="FieldResearch" type="garcom:FieldResearchType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het onderzoek dat betrekking heeft op het bemonsteren van het grondwater en het in het veld uitvoeren van metingen die de toestand van het grondwater en de samenstelling ervan globaal karakteriseren.
-Explanation: Slechts enkele gegevens over de bemonstering zijn relevant voor de basisregistratie ondergrond.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="FieldResearchType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="samplingOperator"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           nillable="true"
-                           type="brocom:OrganizationType">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het veldonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
-Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="samplingStandard"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="garcom:SamplingStandardType">
-                  <xs:annotation>
-                     <xs:appinfo>
-                        <CodeListName>SamplingStandard</CodeListName>
+    <xs:element name="GMW_MonitoringTube"
+                type="garcom:GMW_MonitoringTubeType"
+                substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die nodig zijn voor de unieke identificatie van een specifieke buis in een grondwatermonitoringput.
+                Explanation: Het BRO-ID van de grondwatermonitoringput wordt opgenomen plus het volgnummer van de specifieke buis in de put.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="GMW_MonitoringTubeType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="broId"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="brocom:RegistrationObjectCodeType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van de grondwatermonitoringput in de basisregistratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="tubeNumber" type="xs:integer" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het identificerende nummer van de monitoringbuis in de grondwatermonitoringput in de basisregistratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GMW_MonitoringTubePropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="garcom:GMW_MonitoringTube"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+
+    <xs:element name="GroundwaterMonitoringNet"
+                type="garcom:GroundwaterMonitoringNetType"
+                substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het grondwatermonitoringnet waarin het grondwatersamenstellingsonderzoek wordt uitgevoerd.
+                Explanation: Het registratieobject Grondwatermonitoringnet wordt in een aparte BRO gegevenscatalogus gedefinieerd.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="GroundwaterMonitoringNetType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="broId"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="brocom:RegistrationObjectCodeType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van het grondwatermonitoringnet in de basisregistratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GroundwaterMonitoringNetPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="garcom:GroundwaterMonitoringNet"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+
+    <xs:complexType name="AnalysisType">
+        <xs:sequence>
+            <xs:element name="parameter" type="xs:integer" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het ID van de, in het laboratorium bepaalde parameter.
+                        Explanation: Het ID is het identificerend gegeven van de parameter en staat in de referentielijst Parameterlijst. ID's worden beheerd door SIKB en het Informatiehuis Water (IHW). In de basisregistratie ondergrond is het ID, samen met de Aquocode, het CASnummer (indien van toepassing), een omschrijving, de eenheid en de hoedanigheid opgenomen in de Parameterlijst.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="analysisMeasurementValue"
+                        type="gml:MeasureType"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        nillable="true">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het in het laboratorium gemeten gehalte of de waargenomen waarde van de parameter. Wanneer het limietsymbool aanwezig is, mag hier de rapportagegrens geregistreerd worden in plaats van de gemeten waarde.
+                        Explanation: De bronhouder mag bij een gemeten waarde die kleiner is dan de waarde van het attribuut rapportagegrens of bij een waarde die groter is dan de hoogste grenswaarde besluiten of hij de gemeten waarde aanlevert of niet. Wanneer de bronhouder de gemeten waarde niet aanlevert, wordt in dit attribuut de rapportagegrens geregistreerd. De analysemeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Alleen de prefix, het voorvoegsel van de eenheid in de parameterlijst mag afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1). Voor IMBRO/A gegevens kan het voorkomen dat de waarde van het gegeven ontbreekt. In dat geval is er wel een limietsymbool aanwezig dat aangeeft dat er gemeten is en dat de gemeten waarde lager (of hoger) is dan de grenswaarde.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="limitSymbol"
+                        minOccurs="0"
+                        maxOccurs="1"
+                        type="garcom:LimitSymbolType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>LimitSymbol</CodeListName>
                         <CodeListURI/>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft onder welke afspraken de bemonstering en de andere activiteiten binnen het veldonderzoek zijn uitgevoerd.
-Explanation: De procedure beschrijft de manier van werken, de passende hulpmiddelen en de eisen waaraan de uitvoering van de bemonstering moet voldoen. Procedures zijn in het algemeen vastgelegd in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die uitvoerder voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit van het werk.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="pumpType"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="garcom:PumpTypeType">
-                  <xs:annotation>
-                     <xs:appinfo>
-                        <CodeListName>PumpType</CodeListName>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Symbool dat aangeeft of de gemeten waarde kleiner is dan de rapportagegrens, ofwel groter is dan de hoogtse grenswaarde die gerapporteerd wordt.
+                        Explanation: Het gegeven is alleen aanwezig wanneer bij het attribuut analysemeetwaarde niet de gemeten waarde is opgegeven maar in plaats daarvan de rapportagegrens.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="reportingLimit"
+                        type="gml:MeasureType"
+                        minOccurs="0"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De door het uitvoerende laboratorium met de opdrachtgever afgesproken kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster, die wordt gerapporteerd aan de opdrachtgever.
+                        Explanation: Als de rapportagegrens, samen met het limietsymbool, al bji het gegeven analysemeetwaarde is opgenomen, hoeft het hier niet te worden herhaald. Afhankelijk van de afspraak tussen de opdrachtnemer en de opdrachtgever kan de rapportagegrens gelijk zijn aan de detectiegrens. In andere gevallen is de rapportagegrens hoger dan de detectiegrens. Waarden boven de rapportagegrens worden gerapporteerd aan de opdrachtgever. Bij een gemeten gehalte onder deze grenswaarde wordt de grenswaarde gerapporteerd aan de opdrachtgever. De rapportagegrens wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="qualityControlStatus"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        type="garcom:QualityControlStatusType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>QualityControlStatus</CodeListName>
                         <CodeListURI/>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type pomp dat is gebruikt voor het bemonsteren van het grondwater.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="FieldResearchPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="garcom:FieldResearch"/>
-      </xs:sequence>
-      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-   </xs:complexType>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, beoordelingsprocedure.
+                        Explanation: Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
 
-   <xs:element name="GMW_MonitoringTube"
-               type="garcom:GMW_MonitoringTubeType"
-               substitutionGroup="gml:AbstractFeature">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die nodig zijn voor de unieke identificatie van een specifieke buis in een grondwatermonitoringput.
-Explanation: Het BRO-ID van de grondwatermonitoringput wordt opgenomen plus het volgnummer van de specifieke buis in de put.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="GMW_MonitoringTubeType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="broId"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:RegistrationObjectCodeType">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van de grondwatermonitoringput in de basisregistratie ondergrond.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="tubeNumber" type="xs:integer" minOccurs="1" maxOccurs="1">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het identificerende nummer van de monitoringbuis in de grondwatermonitoringput in de basisregistratie ondergrond.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="GMW_MonitoringTubePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="garcom:GMW_MonitoringTube"/>
-      </xs:sequence>
-      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-   </xs:complexType>
-
-   <xs:element name="GroundwaterMonitoringNet"
-               type="garcom:GroundwaterMonitoringNetType"
-               substitutionGroup="gml:AbstractFeature">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het grondwatermonitoringnet waarin het grondwatersamenstellingsonderzoek wordt uitgevoerd.
-Explanation: Het registratieobject Grondwatermonitoringnet wordt in een aparte BRO gegevenscatalogus gedefinieerd.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="GroundwaterMonitoringNetType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="broId"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:RegistrationObjectCodeType">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van het grondwatermonitoringnet in de basisregistratie ondergrond.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="GroundwaterMonitoringNetPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="garcom:GroundwaterMonitoringNet"/>
-      </xs:sequence>
-      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-   </xs:complexType>
-
-   <xs:element name="LaboratoryAnalysis" type="garcom:LaboratoryAnalysisType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kenmerken van de in een laboratorium uitgevoerde activiteiten ten behoeve van de bepaling van de waarde van een parameter in het grondwatermonster.
-Explanation: Het kan voorkomen dat in het veld genomen monsters door verschillende laboratoria op verschillende stoffen geanalyseerd worden (bijvoorbeeld: bestrijdingsmiddelen bij een ander laboratorium dan de overige stoffen).</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="LaboratoryAnalysisType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="responsibleLaboratory"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           nillable="true"
-                           type="brocom:OrganizationType">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het laboratoriumonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
-Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="analyticalTechnique"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           nillable="true"
-                           type="garcom:AnalyticalTechniqueType">
-                  <xs:annotation>
-                     <xs:appinfo>
+    <xs:complexType name="AnalysisProcessType">
+        <xs:sequence>
+            <xs:element name="analysisDate" minOccurs="1" maxOccurs="1" nillable="true" type="brocom:PartialDateType">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de analyse wordt uitgevoerd.
+                        Explanation: Wanneer de analyse, de bepalingstechniek, zich uitstrekt over meer dagen, wordt de datum vastgelegd waarop de bepalingstechniek is afgerond. Bij historische gegevens kan het voorkomen dat de analysedatum niet bekend is.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="analyticalTechnique"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        nillable="true"
+                        type="garcom:AnalyticalTechniqueType">
+                <xs:annotation>
+                    <xs:appinfo>
                         <CodeListName>AnalyticalTechnique</CodeListName>
                         <CodeListURI>urn:bro:gar:AnalyticalTechnique</CodeListURI>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De analysetechniek die gebruikt is bij het bepalen van het gehalte van parameters.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="valuationMethod"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           nillable="true"
-                           type="garcom:ValuationMethodType">
-                  <xs:annotation>
-                     <xs:appinfo>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De analysetechniek die gebruikt is bij het bepalen van het gehalte van parameters.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="valuationMethod"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        nillable="true"
+                        type="garcom:ValuationMethodType">
+                <xs:annotation>
+                    <xs:appinfo>
                         <CodeListName>ValuationMethod</CodeListName>
                         <CodeListURI>urn:bro:gar:ValuationMethod</CodeListURI>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De norm of het voorschrift dat beschrijft hoe het onderzoek is uitgevoerd.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="LaboratoryAnalysisPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="garcom:LaboratoryAnalysis"/>
-      </xs:sequence>
-      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-   </xs:complexType>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De norm of het voorschrift dat beschrijft hoe het onderzoek is uitgevoerd.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element minOccurs="1"
+                        maxOccurs="unbounded"
+                        name="analysis"
+                        nillable="false"
+                        type="garcom:AnalysisType"/>
+        </xs:sequence>
+    </xs:complexType>
 
-   <xs:element name="ParameterList" type="garcom:ParameterListType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met stoffen en andere eigenschappen die in een grondwatersamenstellingsonderzoek bepaald worden.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="ParameterListType">
-      <xs:sequence>
-         <xs:element name="id" type="xs:integer" minOccurs="1" maxOccurs="1">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het ID van de parameter zoals uitgegeven door het SIKB. Dit is een persistent, identificerend volgnummer binnen de referentielijst. Voor nieuwe stoffen kan een nieuwe aquocode met een nieuw ID worden aangevraagd.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="aquoCode" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De Aquocode van de laboratoriumparameter. De aquocode is een codering voor een stof die afgeleid is van de naam van de stof. Voor nieuwe stoffen kan een nieuwe aquocode worden aangevraagd waarbij ook een nieuw ID wordt aangemaakt.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="casNumber" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het Chemical Abstracts Service nummer van de laboratoriumparameter. Alleen chemische parameters hebben een CAS-nummer. Een Chemical Abstracts Service nummer is uniek voor elke parameter. Voor bv somparameters ontbreekt het CAS-nummer.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De volledige naam van de parameter.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="unit" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De eenheid waarin de parameter geregistreerd moet worden. De prefix, het voorvoegsel van de eenheid, mag worden aangepast als dit beter aansluit bij de hoogte van de gemeten waarde. Wanneer bijvoorbeeld ug/l in de parameterlijst staat, is mg/l ook toegestaan.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="aspect" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De afgesproken hoedanigheid waarin de parameter wordt gerapporteerd. De hoedanigheid is een nadere duiding van de eenheid, behorend bij een meetwaarde, bijvoorbeeld ten opzicht van 25 graden Celcius. De hoedanigheid kan ook de fractie van de parameter aangeven waarop de meetwaarde betrekking heeft, bijvoorbeeld de opgeloste fractie (bijv. na filtratie): nf. Bij stiksfofverbindingen wordt bijvoorbeeld aangegeven dat de waarde wordt uitgedrukt in stikstof in opgeloste fractie (Nnf).</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:complexType name="ParameterListPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="garcom:ParameterList"/>
-      </xs:sequence>
-   </xs:complexType>
+    <xs:complexType name="FieldMeasurementType">
+        <xs:sequence>
+            <xs:element name="parameter" type="xs:integer" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het ID van de in het veld gemeten parameter.
+                        Explanation: In het veld wordt vaak gemeten: zuurstofgehalte, zuurgraad, temperatuur, troebelheid, elektrisch geleidingsvermogen en waterstofcarbonaatgehalte. Indien de parameter gemeten is in het veld, moet de gemeten waarde opgenomen worden in de basisregistratie ondergrond. Het ID is het identificerend gegeven van de parameter en staat in de referentielijst Parameterlijst. ID's worden beheerd door SIKB en het Informatiehuis Water (IHW). In de basisregistratie ondergrond is het ID, samen met de Aquocode, het CASnummer (indien van toepassing), een omschrijving, de eenheid en de hoedanigheid opgenomen in de Parameterlijst.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="fieldMeasurementValue"
+                        type="gml:MeasureType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De in het veld gemeten waarde van de parameter.
+                        Explanation: De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Alleen de prefix, het voorvoegsel van de eenheid in de parameterlijst mag afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="qualityControlStatus"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        type="garcom:QualityControlStatusType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>QualityControlStatus</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, beoordelingsprocedure.
+                        Explanation: Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
 
-   <xs:complexType name="AnalyticalTechniqueType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:AnalyticalTechnique"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="ColorType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:Color"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="ColorStrengthType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:ColorStrength"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="LimitSymbolType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:LimitSymbol"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="PumpTypeType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:PumpType"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="QualityControlMethodType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:QualityControlMethod"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="QualityControlStatusType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:QualityControlStatus"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="SamplingStandardType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:SamplingStandard"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
-   <xs:complexType name="ValuationMethodType">
-      <xs:simpleContent>
-         <xs:restriction base="gml:CodeWithAuthorityType">
-            <xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:gar:ValuationMethod"/>
-         </xs:restriction>
-      </xs:simpleContent>
-   </xs:complexType>
+    <xs:complexType name="FieldObservationType">
+        <xs:sequence>
+            <xs:element name="primaryColour"
+                        minOccurs="0"
+                        maxOccurs="1"
+                        type="garcom:ColorType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>Color</CodeListName>
+                        <CodeListURI>urn:bro:gar:Color</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De primaire kleur van het grondwater.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="secondaryColour"
+                        minOccurs="0"
+                        maxOccurs="1"
+                        type="garcom:ColorType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>Color</CodeListName>
+                        <CodeListURI>urn:bro:gar:Color</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De secundaire ofwel bijkleur van het grondwater.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="colourStrength"
+                        minOccurs="0"
+                        maxOccurs="1"
+                        type="garcom:ColorStrengthType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>ColorStrength</CodeListName>
+                        <CodeListURI>urn:bro:gar:ColorStrength</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De sterkte van de kleur van het grondwater.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="abnormalityInCooling"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de temperatuur van het monster tijdens het transport afwijkt van de eisen die in de gebruikte bemonsteringsnorm worden gesteld.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="abnormalityInDevice"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de gebruikte meetapparatuur een te groot verloop had.
+                        Explanation: De meetapparatuur wordt dagelijks in ieder geval een keer gekalibreerd. In de loop van de dag kan de meetapparatuur een groeiende afwijking gaan vertonen.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="pollutedByEngine"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de genomen monsters mogelijk gecontamineerd zijn door vluchtige verbindingen, door aanwezige verbrandingsmotoren.
+                        Explanation: Dit kan gebeuren als een verbrandingsmotor wordt gebruikt tijdens het bemonsteren. Men wordt geacht bovenwinds te gaan staan van deze motor. Mocht het echter windstil zijn of de wind tijdens het bemonsteren gedraaid zijn, dan kan er toch contaminatie van het monster ontstaan.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="filterAerated"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het filter is drooggevallen.
+                        Explanation: Dit kan zich voor doen wanneer de peilbuis tijdens de bemonstering slecht liep. Er is geen lucht in het monster terechtgekomen.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="groundWaterLevelDroppedTooMuch"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de grondwaterstand tijdens en na het voorpompen met meer dan 50 centimeter verlaagd is.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="abnormalFilter"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of tijdens monstername een type inline filter gebruikt is dat afwijkt van de eisen in de gebruikte bemonsteringsnorm.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="sampleAerated"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het monster is belucht.
+                        Explanation: Dit kan zich voor doen wanneer de peilbuis tijdens de bemonstering slecht liep.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="hoseReused"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de slang die gebruikt is voor het oppompen van het grondwater nieuw is dan wel al eerder is gebruikt.
+                        Explanation: Volgens de eisen in de gebruikte bemonsteringsnorm is dit meestal niet toegestaan. In de praktijk zal een slang alleen worden hergebruikt als het geen gevolgen voor het monster heeft, dat wil zeggen, wanneer de vorige bemonsteringen plaats vonden in schoon grondwater.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="temperatureDifficultToMeasure"
+                        type="brocom:IndicationYesNoUnknownType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de temperatuur van het grondwater tijdens de bemonstering moeilijk te bepalen was.
+                        Explanation: Dit kan voorkomen bij een temperatuurmeting in de doorstroomcel, bijvoorbeeld door extreem warm weer in combinatie met een slechtlopende peilbuis. De gemeten temperatuur wijkt dan af van de temperatuur van het grondwater in de put.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="FieldResearchType">
+        <xs:sequence>
+            <xs:element name="samplingDateTime"
+                        type="xs:dateTime"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het veldonderzoek is uitgevoerd en het grondwatermonster is genomen.
+                        Explanation: Deze datum met het tijdstip is voor gebruikers de belangrijkste datum, omdat dit de datum is waarop meetwaarden betrekking hebben. Ook voor het laboratoriumonderzoek is deze datum belangrijk omdat tussen de bemonsteringsdatum en laboratoriumanalyse slechts een beperkte periode mag liggen. Het tijdstip kan van belang zijn, bijvoorbeeld bij monitoringbuizen die onder invloed staan van eb en vloed of omdat een monitoringbuis soms meer keer per dag bemonsterd wordt.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="samplingOperator"
+                        minOccurs="0"
+                        maxOccurs="1"
+                        type="brocom:OrganizationType"
+                        nillable="true">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het veldonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="samplingStandard"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        type="garcom:SamplingStandardType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>SamplingStandard</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft onder welke afspraken de bemonstering en de andere activiteiten binnen het veldonderzoek zijn uitgevoerd.
+                        Explanation: De procedure beschrijft de manier van werken, de passende hulpmiddelen en de eisen waaraan de uitvoering van de bemonstering moet voldoen. Procedures zijn in het algemeen vastgelegd in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die uitvoerder voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit van het werk.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element minOccurs="1"
+                        maxOccurs="1"
+                        name="samplingDevice"
+                        nillable="false"
+                        type="garcom:SamplingDeviceType"/>
+            <xs:element minOccurs="1"
+                        maxOccurs="1"
+                        name="fieldObservation"
+                        nillable="false"
+                        type="garcom:FieldObservationType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="unbounded"
+                        name="fieldMeasurement"
+                        nillable="false"
+                        type="garcom:FieldMeasurementType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="LaboratoryAnalysisType">
+        <xs:sequence>
+            <xs:element name="responsibleLaboratory"
+                        minOccurs="0"
+                        maxOccurs="1"
+                        type="brocom:OrganizationType"
+                        nillable="true">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het laboratoriumonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element minOccurs="1"
+                        maxOccurs="unbounded"
+                        name="analysisProcess"
+                        nillable="false"
+                        type="garcom:AnalysisProcessType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="SamplingDeviceType">
+        <xs:sequence>
+            <xs:element name="pumpType"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        type="garcom:PumpTypeType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>PumpType</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type pomp dat is gebruikt voor het bemonsteren van het grondwater.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="AnalyticalTechniqueType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:AnalyticalTechnique"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ColorType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:Color"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ColorStrengthType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:ColorStrength"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="LimitSymbolType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:LimitSymbol"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="PumpTypeType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:PumpType"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="QualityControlMethodType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:QualityControlMethod"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="QualityControlStatusType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:QualityControlStatus"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="SamplingStandardType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:SamplingStandard"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ValuationMethodType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace"
+                              type="xs:anyURI"
+                              use="required"
+                              fixed="urn:bro:gar:ValuationMethod"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
 </xs:schema>
