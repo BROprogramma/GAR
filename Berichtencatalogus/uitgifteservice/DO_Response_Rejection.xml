@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dsgar:dispatchDataResponse
-  xmlns:dsgar="http://www.broservices.nl/xsd/dsgar/0.5" 
-  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 ../../XSD/dsgar-messages.xsd"
-  >
+<dispatchDataResponse xmlns="http://www.broservices.nl/xsd/dsgar/1.0"
+                      xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/1.0 ../../XSD/dsgar-messages.xsd"
+>
   <brocom:responseType>rejection</brocom:responseType>
   <brocom:requestReference>do14</brocom:requestReference>
   <brocom:rejectionTime>2017-10-31T10:27:48</brocom:rejectionTime>
   <brocom:rejectionReason>Dit registratieobject bestaat niet.</brocom:rejectionReason>
-</dsgar:dispatchDataResponse>
+</dispatchDataResponse>
