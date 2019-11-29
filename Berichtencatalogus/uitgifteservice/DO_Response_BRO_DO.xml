@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dsgar:dispatchDataResponse
-  xmlns:dsgar="http://www.broservices.nl/xsd/dsgar/0.5" 
-  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-  xmlns:gml="http://www.opengis.net/gml/3.2"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 ../../XSD/dsgar-messages.xsd"
-  >
+<dispatchDataResponse xmlns="http://www.broservices.nl/xsd/dsgar/1.0"
+                      xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                      xmlns:gml="http://www.opengis.net/gml/3.2"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/1.0 ../../XSD/dsgar-messages.xsd"
+>
   <brocom:responseType>dispatch</brocom:responseType>
   <brocom:requestReference>do14</brocom:requestReference>
-  <brocom:dispatchTime>2017-10-31T10:27:48</brocom:dispatchTime>
-  <dsgar:dispatchDocument>
-    <brocom:BRO_DO gml:id="ff_2134">
-      <brocom:broId>GAR210987654321</brocom:broId>
+  <brocom:dispatchTime>2018-11-09T10:28:47</brocom:dispatchTime>
+  <dispatchDocument>
+    <brocom:BRO_DO gml:id="id_0001">
+      <brocom:broId>GAR123456789012</brocom:broId>
       <brocom:deregistered>ja</brocom:deregistered>
-      <brocom:deregistrationTime>2019-06-27T10:13:00+02:00</brocom:deregistrationTime>
+      <brocom:deregistrationTime>2018-11-05T09:03:39</brocom:deregistrationTime>
     </brocom:BRO_DO>
-  </dsgar:dispatchDocument>
-</dsgar:dispatchDataResponse>
+  </dispatchDocument>
+</dispatchDataResponse>
