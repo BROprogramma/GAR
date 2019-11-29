@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dsgar:dispatchDataRequest
-  xmlns:dsgar="http://www.broservices.nl/xsd/dsgar/0.5" 
-  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 ../../XSD/dsgar-messages.xsd"
+<dispatchDataRequest xmlns="http://www.broservices.nl/xsd/dsgar/1.0"
+                     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/1.0 ../../XSD/dsgar-messages.xsd"
 >
   <brocom:requestReference>do14</brocom:requestReference>
   <brocom:broId>GAR123456789012</brocom:broId>
-</dsgar:dispatchDataRequest>
+</dispatchDataRequest>
