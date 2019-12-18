@@ -225,11 +225,11 @@
             <xs:element name="primaryColour"
                         minOccurs="0"
                         maxOccurs="1"
-                        type="garcom:ColorType">
+                        type="garcom:ColourType">
                 <xs:annotation>
                     <xs:appinfo>
-                        <CodeListName>Color</CodeListName>
-                        <CodeListURI>urn:bro:gar:Color</CodeListURI>
+                        <CodeListName>Colour</CodeListName>
+                        <CodeListURI>urn:bro:gar:Colour</CodeListURI>
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De primaire kleur van het grondwater.</xs:documentation>
                 </xs:annotation>
@@ -237,11 +237,11 @@
             <xs:element name="secondaryColour"
                         minOccurs="0"
                         maxOccurs="1"
-                        type="garcom:ColorType">
+                        type="garcom:ColourType">
                 <xs:annotation>
                     <xs:appinfo>
-                        <CodeListName>Color</CodeListName>
-                        <CodeListURI>urn:bro:gar:Color</CodeListURI>
+                        <CodeListName>Colour</CodeListName>
+                        <CodeListURI>urn:bro:gar:Colour</CodeListURI>
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De secundaire ofwel bijkleur van het grondwater.</xs:documentation>
                 </xs:annotation>
@@ -249,11 +249,11 @@
             <xs:element name="colourStrength"
                         minOccurs="0"
                         maxOccurs="1"
-                        type="garcom:ColorStrengthType">
+                        type="garcom:ColourStrengthType">
                 <xs:annotation>
                     <xs:appinfo>
-                        <CodeListName>ColorStrength</CodeListName>
-                        <CodeListURI>urn:bro:gar:ColorStrength</CodeListURI>
+                        <CodeListName>ColourStrength</CodeListName>
+                        <CodeListURI>urn:bro:gar:ColourStrength</CodeListURI>
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De sterkte van de kleur van het grondwater.</xs:documentation>
                 </xs:annotation>
@@ -438,23 +438,23 @@
             </xs:restriction>
         </xs:simpleContent>
     </xs:complexType>
-    <xs:complexType name="ColorType">
+    <xs:complexType name="ColourType">
         <xs:simpleContent>
             <xs:restriction base="gml:CodeWithAuthorityType">
                 <xs:attribute name="codeSpace"
                               type="xs:anyURI"
                               use="required"
-                              fixed="urn:bro:gar:Color"/>
+                              fixed="urn:bro:gar:Colour"/>
             </xs:restriction>
         </xs:simpleContent>
     </xs:complexType>
-    <xs:complexType name="ColorStrengthType">
+    <xs:complexType name="ColourStrengthType">
         <xs:simpleContent>
             <xs:restriction base="gml:CodeWithAuthorityType">
                 <xs:attribute name="codeSpace"
                               type="xs:anyURI"
                               use="required"
-                              fixed="urn:bro:gar:ColorStrength"/>
+                              fixed="urn:bro:gar:ColourStrength"/>
             </xs:restriction>
         </xs:simpleContent>
     </xs:complexType>

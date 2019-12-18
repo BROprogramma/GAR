@@ -44,11 +44,11 @@
         </garcom:samplingDevice>
         <garcom:fieldObservation>
           <!-- Optional -->
-          <garcom:primaryColour codeSpace="urn:bro:gar:Color">wit</garcom:primaryColour>
+          <garcom:primaryColour codeSpace="urn:bro:gar:Colour">wit</garcom:primaryColour>
           <!-- Optional -->
-          <garcom:secondaryColour codeSpace="urn:bro:gar:Color">grijs</garcom:secondaryColour>
+          <garcom:secondaryColour codeSpace="urn:bro:gar:Colour">grijs</garcom:secondaryColour>
           <!-- Optional -->
-          <garcom:colourStrength codeSpace="urn:bro:gar:ColorStrength">licht</garcom:colourStrength>
+          <garcom:colourStrength codeSpace="urn:bro:gar:ColourStrength">licht</garcom:colourStrength>
           <garcom:abnormalityInCooling>ja</garcom:abnormalityInCooling>
           <garcom:abnormalityInDevice>nee</garcom:abnormalityInDevice>
           <garcom:pollutedByEngine>onbekend</garcom:pollutedByEngine>
