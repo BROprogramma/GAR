@@ -7,7 +7,7 @@
            targetNamespace="http://www.broservices.nl/xsd/garcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.6.0">
+           version="0.7.0">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
