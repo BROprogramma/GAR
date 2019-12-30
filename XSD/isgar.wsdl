@@ -17,11 +17,6 @@
         -
     </wsdl:documentation>
 
-    <!--
-    <wsdl:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" location="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-    -->
-    <wsdl:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" location="brocommon.xsd"/>
-
     <wsdl:types>
         <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isgar/1.0" targetNamespace="http://www.broservices.nl/wsdl/isgar/1.0">
             <!--
