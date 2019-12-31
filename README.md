@@ -5,7 +5,7 @@ Repository voor het ontwikkelen van de gegevenscatalogus GAR. De werkversie van 
 https://broprogramma.github.io/GAR (NTB niet gebruiken voor publieke consultatie)
 
 ## Publieke Consultatie
-Van 25 maart tot 7 mei loopt de consultatie van de catalogus [“Grondwatersamenstellingsonderzoek"][1]. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
+Van 25 maart tot 7 mei 2019 loopt de consultatie van de catalogus [“Grondwatersamenstellingsonderzoek"][1]. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
 
 In de [instructies voor de publieke consultatie][2] wordt uitgelegd hoe u kunt reageren.
 
