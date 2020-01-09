@@ -12,9 +12,9 @@
     <gar:dispatchDataResponse>
       <brocom:responseType>dispatch</brocom:responseType>
       <brocom:requestReference>do15</brocom:requestReference>
-      <brocom:dispatchTime>2018-11-30T08:41:55</brocom:dispatchTime>
-      <gar:dispatchDocument>
-        <gar:GAR_O_DP gml:id="id_0001">
+      <brocom:dispatchTime>2018-11-09T10:31:17</brocom:dispatchTime>
+      <dispatchDocument>
+        <GAR_O_DP gml:id="id_0001">
           <brocom:broId>GAR123456789012</brocom:broId>
           <brocom:deliveryAccountableParty>52754834</brocom:deliveryAccountableParty>
           <!-- Optional: -->
@@ -22,7 +22,7 @@
           <!-- Optional: -->
           <brocom:deliveryResponsibleParty>43845725</brocom:deliveryResponsibleParty>
           <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-          <gar:registrationHistory>
+          <registrationHistory>
             <brocom:objectRegistrationTime>2018-10-29T15:41:55</brocom:objectRegistrationTime>
             <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
             <!-- Optional:
@@ -45,21 +45,21 @@
             <!-- Optional:
             <brocom:reregistrationTime>?</brocom:reregistrationTime>
              -->
-          </gar:registrationHistory>
-          <gar:qualityControlMethod codeSpace="urn:bro:gar:QualityControlMethod">handboekProvinciesRIVMv2017</gar:qualityControlMethod>
+          </registrationHistory>
+          <qualityControlMethod codeSpace="urn:bro:gar:QualityControlMethod">handboekProvinciesRIVMv2017</qualityControlMethod>
           <!-- 1 or more repetitions: -->
-          <gar:groundwaterMonitoringNet>
+          <groundwaterMonitoringNet>
             <garcom:GroundwaterMonitoringNet gml:id="GMN123456789012">
               <garcom:broId>GMN123456789012</garcom:broId>
             </garcom:GroundwaterMonitoringNet>
-          </gar:groundwaterMonitoringNet>
-          <gar:monitoringPoint>
-            <garcom:GMW_MonitoringTube gml:id="GMW210987654321_0001">
+          </groundwaterMonitoringNet>
+          <monitoringPoint>
+            <garcom:GroundwaterMonitoringTube gml:id="GMW210987654321_0001">
               <garcom:broId>GMW210987654321</garcom:broId>
               <garcom:tubeNumber>1</garcom:tubeNumber>
-            </garcom:GMW_MonitoringTube>
-          </gar:monitoringPoint>
-          <gar:fieldResearch>
+            </garcom:GroundwaterMonitoringTube>
+          </monitoringPoint>
+          <fieldResearch>
             <garcom:samplingDateTime>2018-10-23T16:59:32</garcom:samplingDateTime>
             <!-- Optional: -->
             <garcom:samplingOperator>
@@ -106,9 +106,9 @@
               <garcom:fieldMeasurementValue uom="uS/cm">15.123</garcom:fieldMeasurementValue>
               <garcom:qualityControlStatus codeSpace="urn:bro:gar:QualityControlStatus">onbekend</garcom:qualityControlStatus>
             </garcom:fieldMeasurement>
-          </gar:fieldResearch>
+          </fieldResearch>
           <!-- 0 or more repetitions: -->
-          <gar:laboratoryAnalysis>
+          <laboratoryAnalysis>
             <!-- Optional: -->
             <garcom:responsibleLaboratory>
               <!-- You have a CHOICE of the next 2 items at this level
@@ -166,8 +166,8 @@
                 <garcom:qualityControlStatus codeSpace="urn:bro:gar:QualityControlStatus">onbeslist</garcom:qualityControlStatus>
               </garcom:analysis>
             </garcom:analysisProcess>
-          </gar:laboratoryAnalysis>
-          <gar:laboratoryAnalysis>
+          </laboratoryAnalysis>
+          <laboratoryAnalysis>
             <garcom:responsibleLaboratory>
               <brocom:chamberOfCommerceNumber>43845725</brocom:chamberOfCommerceNumber>
             </garcom:responsibleLaboratory>
@@ -184,9 +184,9 @@
                 <garcom:qualityControlStatus codeSpace="urn:bro:gar:QualityControlStatus">goedgekeurd</garcom:qualityControlStatus>
               </garcom:analysis>
             </garcom:analysisProcess>
-          </gar:laboratoryAnalysis>
-        </gar:GAR_O_DP>
-      </gar:dispatchDocument>
+          </laboratoryAnalysis>
+        </GAR_O_DP>
+      </dispatchDocument>
     </gar:dispatchDataResponse>
   </soap:Body>
 </soap:Envelope>

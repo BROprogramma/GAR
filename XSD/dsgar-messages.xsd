@@ -7,7 +7,7 @@
            targetNamespace="http://www.broservices.nl/xsd/dsgar/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.6.0">
+           version="0.7.1">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -19,6 +19,7 @@
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
    <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/garcommon/1.0/garcommon.xsd"/>
     -->
+
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
    <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="garcommon.xsd"/>
 
@@ -89,7 +90,7 @@
                            maxOccurs="1"
                            name="monitoringPoint"
                            nillable="false"
-                           type="garcom:GMW_MonitoringTubePropertyType"/>
+                           type="garcom:GroundwaterMonitoringTubePropertyType"/>
                <xs:element minOccurs="1"
                            maxOccurs="1"
                            name="fieldResearch"
@@ -112,7 +113,7 @@
 
    <xs:element name="GAR_O_DP"
                type="dsgar:GAR_O_DPType"
-               substitutionGroup="dsgar:GAR_O">
+               substitutionGroup="brocom:RegistrationObject">
       <xs:annotation>
          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over een grondwatersamenstellingsonderzoek registratieobject in de basisregistratie ondergrond, dat niet uit registratie is genomen en welke verstrekt worden aan een aanvrager die tevens bronhouder en/of dataleverancier van het registratieobject is.</xs:documentation>
       </xs:annotation>

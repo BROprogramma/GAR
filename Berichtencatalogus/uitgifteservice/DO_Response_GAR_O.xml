@@ -12,17 +12,17 @@
     <gar:dispatchDataResponse>
       <brocom:responseType>dispatch</brocom:responseType>
       <brocom:requestReference>do14</brocom:requestReference>
-      <brocom:dispatchTime>2018-11-30T08:41:55</brocom:dispatchTime>
-      <gar:dispatchDocument>
-        <gar:GAR_O gml:id="id_0001">
+      <brocom:dispatchTime>2018-11-09T10:27:48</brocom:dispatchTime>
+      <dispatchDocument>
+        <GAR_O gml:id="id_0001">
           <brocom:broId>GAR123456789012</brocom:broId>
           <brocom:deliveryAccountableParty>52754834</brocom:deliveryAccountableParty>
-          <!-- Optional: -->
+          <!-- Optional:
           <brocom:objectIdAccountableParty>Pietje_20181023_QR2</brocom:objectIdAccountableParty>
-          <!-- Optional: -->
           <brocom:deliveryResponsibleParty>43845725</brocom:deliveryResponsibleParty>
+          -->
           <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-          <gar:registrationHistory>
+          <registrationHistory>
             <brocom:objectRegistrationTime>2018-10-29T15:41:55</brocom:objectRegistrationTime>
             <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
             <!-- Optional:
@@ -45,30 +45,30 @@
             <!-- Optional:
             <brocom:reregistrationTime>?</brocom:reregistrationTime>
              -->
-          </gar:registrationHistory>
-          <gar:qualityControlMethod codeSpace="urn:bro:gar:QualityControlMethod">handboekProvinciesRIVMv2017</gar:qualityControlMethod>
+          </registrationHistory>
+          <qualityControlMethod codeSpace="urn:bro:gar:QualityControlMethod">handboekProvinciesRIVMv2017</qualityControlMethod>
           <!-- 1 or more repetitions: -->
-          <gar:groundwaterMonitoringNet>
+          <groundwaterMonitoringNet>
             <garcom:GroundwaterMonitoringNet gml:id="GMN123456789012">
               <garcom:broId>GMN123456789012</garcom:broId>
             </garcom:GroundwaterMonitoringNet>
-          </gar:groundwaterMonitoringNet>
-          <gar:monitoringPoint>
-            <garcom:GMW_MonitoringTube gml:id="GMW210987654321_0001">
+          </groundwaterMonitoringNet>
+          <monitoringPoint>
+            <garcom:GroundwaterMonitoringTube gml:id="GMW210987654321_0001">
               <garcom:broId>GMW210987654321</garcom:broId>
               <garcom:tubeNumber>1</garcom:tubeNumber>
-            </garcom:GMW_MonitoringTube>
-          </gar:monitoringPoint>
-          <gar:fieldResearch>
+            </garcom:GroundwaterMonitoringTube>
+          </monitoringPoint>
+          <fieldResearch>
             <garcom:samplingDateTime>2018-10-23T16:59:32</garcom:samplingDateTime>
-            <!-- Optional: -->
+            <!-- Optional:
             <garcom:samplingOperator>
-              <!-- You have a CHOICE of the next 2 items at this level
+              <!- You have a CHOICE of the next 2 items at this level
               <brocom:chamberOfCommerceNumber>?</brocom:chamberOfCommerceNumber>
               <brocom:europeanCompanyRegistrationNumber>?</brocom:europeanCompanyRegistrationNumber>
-              -->
               <brocom:chamberOfCommerceNumber>52754834</brocom:chamberOfCommerceNumber>
             </garcom:samplingOperator>
+            -->
             <garcom:samplingStandard codeSpace="urn:bro:gar:SamplingStandard">nen5744/A1</garcom:samplingStandard>
             <garcom:samplingDevice>
               <garcom:pumpType codeSpace="urn:bro:gar:PumpType">slangenpomp</garcom:pumpType>
@@ -106,17 +106,17 @@
               <garcom:fieldMeasurementValue uom="uS/cm">15.123</garcom:fieldMeasurementValue>
               <garcom:qualityControlStatus codeSpace="urn:bro:gar:QualityControlStatus">onbekend</garcom:qualityControlStatus>
             </garcom:fieldMeasurement>
-          </gar:fieldResearch>
+          </fieldResearch>
           <!-- 0 or more repetitions: -->
-          <gar:laboratoryAnalysis>
-            <!-- Optional: -->
+          <laboratoryAnalysis>
+            <!-- Optional:
             <garcom:responsibleLaboratory>
-              <!-- You have a CHOICE of the next 2 items at this level
+              <!- You have a CHOICE of the next 2 items at this level
               <brocom:chamberOfCommerceNumber>?</brocom:chamberOfCommerceNumber>
               <brocom:europeanCompanyRegistrationNumber>?</brocom:europeanCompanyRegistrationNumber>
-              -->
               <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
             </garcom:responsibleLaboratory>
+            -->
             <!-- 1 or more repetitions: -->
             <!-- bepalingstechniek AAS; parameters 1270 (nitraat) en 441 (cadmium) -->
             <garcom:analysisProcess>
@@ -166,8 +166,8 @@
                 <garcom:qualityControlStatus codeSpace="urn:bro:gar:QualityControlStatus">onbeslist</garcom:qualityControlStatus>
               </garcom:analysis>
             </garcom:analysisProcess>
-          </gar:laboratoryAnalysis>
-          <gar:laboratoryAnalysis>
+          </laboratoryAnalysis>
+          <laboratoryAnalysis>
             <garcom:responsibleLaboratory>
               <brocom:chamberOfCommerceNumber>43845725</brocom:chamberOfCommerceNumber>
             </garcom:responsibleLaboratory>
@@ -183,10 +183,10 @@
                 <garcom:reportingLimit uom="ug/kg">0.1</garcom:reportingLimit>
                 <garcom:qualityControlStatus codeSpace="urn:bro:gar:QualityControlStatus">goedgekeurd</garcom:qualityControlStatus>
               </garcom:analysis>
-            </gar:garcom:analysisProcess>
-          </gar:laboratoryAnalysis>
-        </gar:GAR_O>
-      </gar:dispatchDocument>
+            </garcom:analysisProcess>
+          </laboratoryAnalysis>
+        </GAR_O>
+      </dispatchDocument>
     </gar:dispatchDataResponse>
   </soap:Body>
 </soap:Envelope>

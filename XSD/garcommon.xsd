@@ -7,7 +7,7 @@
            targetNamespace="http://www.broservices.nl/xsd/garcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.7.0">
+           version="0.7.1">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -22,15 +22,15 @@
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
-    <xs:element name="GMW_MonitoringTube"
-                type="garcom:GMW_MonitoringTubeType"
+    <xs:element name="GroundwaterMonitoringTube"
+                type="garcom:GroundwaterMonitoringTubeType"
                 substitutionGroup="gml:AbstractFeature">
         <xs:annotation>
             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die nodig zijn voor de unieke identificatie van een specifieke buis in een grondwatermonitoringput.
                 Explanation: Het BRO-ID van de grondwatermonitoringput wordt opgenomen plus het volgnummer van de specifieke buis in de put.</xs:documentation>
         </xs:annotation>
     </xs:element>
-    <xs:complexType name="GMW_MonitoringTubeType">
+    <xs:complexType name="GroundwaterMonitoringTubeType">
         <xs:complexContent>
             <xs:extension base="gml:AbstractFeatureType">
                 <xs:sequence>
@@ -51,9 +51,9 @@
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
-    <xs:complexType name="GMW_MonitoringTubePropertyType">
+    <xs:complexType name="GroundwaterMonitoringTubePropertyType">
         <xs:sequence minOccurs="0">
-            <xs:element ref="garcom:GMW_MonitoringTube"/>
+            <xs:element ref="garcom:GroundwaterMonitoringTube"/>
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>

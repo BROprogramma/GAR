@@ -23,10 +23,10 @@
         </garcom:GroundwaterMonitoringNet>
       </groundwaterMonitoringNet>
       <monitoringPoint>
-        <garcom:GMW_MonitoringTube gml:id="GMW210987654321_0001">
+        <garcom:GroundwaterMonitoringTube gml:id="GMW210987654321_0001">
           <garcom:broId>GMW210987654321</garcom:broId>
           <garcom:tubeNumber>1</garcom:tubeNumber>
-        </garcom:GMW_MonitoringTube>
+        </garcom:GroundwaterMonitoringTube>
       </monitoringPoint>
       <fieldResearch>
         <garcom:samplingDateTime>2018-10-23T16:59:32</garcom:samplingDateTime>
