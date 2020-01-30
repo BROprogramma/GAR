@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/95 Gestructureerd datatype (SAMPLE1)/20190731</p>
       <p>Imvertor: 1.58.0</p>
-      <p>Model release: Conceptualmodel-95GestructureerddatatypeSAMPLE1-1.0-1-20190731-20200130-134645</p>
+      <p>Model release: Conceptualmodel-95GestructureerddatatypeSAMPLE1-1.0-1-20190731-20200130-135442</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -60,8 +60,8 @@
          </section>
          <section>
             <h2>Entiteiten en attributen</h2>
-            <section id=""><a class="anchor" id="graph_EAID_6AFD7588_D576_4771_91E8_1604679A155B"></a><section id="global_class_Model_EenObject">
-                  <h3>   EenObject</h3>
+            <section id=""><a class="anchor" id="graph_EAID_6AFD7588_D576_4771_91E8_1604679A155B"></a><section id="global_class_Model_HetObject">
+                  <h3>   HetObject</h3>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
                      <colgroup style="width: 70%;"></colgroup>
@@ -76,17 +76,20 @@
                         </tr>
                         <tr>
                            <th>Relaties met andere entiteiten</th>
-                           <td>EenObject 
-                              attribuutGG 1 
+                           <td>HetObject 
+                              groepGegevensWatEengegevensGroepIs 1 
                               <a class="link" href="#global_class_Model_EenGegevensgroepType">EenGegevensgroepType</a>
-                              <br>EenObject is specialisatie van 
+                              <br>HetObject 
+                              groepGegevensWatEenDatatypeIs 1 
+                              EenGestructureerdDatatype
+                              <br>HetObject is specialisatie van 
                               <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
                               <br></td>
                         </tr>
                      </tbody>
                   </table>
-                  <section id="detail_attribute_Model_EenObject_attribuutDD">
-                     <h4>  attribuutDD</h4>
+                  <section id="detail_attribute_Model_HetObject_eigenschapWatEenDatatypeIs">
+                     <h4>  eigenschapWatEenDatatypeIs</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -94,7 +97,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van EenObject</td>
+                              <td>Attribuut van HetObject</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -120,6 +123,37 @@
                      </table>
                      
                   </section>
+                  <section id="detail_attribute_Model_HetObject_eigenschapWatEenGegevensGroepIs">
+                     <h4>  eigenschapWatEenGegevensGroepIs</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van HetObject</td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>EenGegevensgroepType</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
                </section><a class="anchor" id="graph_EAID_DB5D59B1_0C61_4bc6_B475_7CA15EC86221"></a><section id="global_class_Model_EenGegevensgroepType">
                   <h3>   EenGegevensgroepType</h3>
                   <table style="width: 100%;">
@@ -133,9 +167,9 @@
                         <tr>
                            <th>Relaties met andere entiteiten</th>
                            <td>
-                              <a class="link" href="#global_class_Model_EenObject">EenObject</a>
+                              <a class="link" href="#global_class_Model_HetObject">HetObject</a>
                               
-                              attribuutGG 1 EenGegevensgroepType<br></td>
+                              groepGegevensWatEengegevensGroepIs 1 EenGegevensgroepType<br></td>
                         </tr>
                      </tbody>
                   </table>
