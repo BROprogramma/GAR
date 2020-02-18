@@ -7,7 +7,7 @@
            targetNamespace="http://www.broservices.nl/xsd/garcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.7.1">
+           version="0.7.2">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -98,7 +98,7 @@
                 </xs:annotation>
             </xs:element>
             <xs:element name="analysisMeasurementValue"
-                        type="gml:MeasureType"
+                        type="brocom:MeasureNillableType"
                         minOccurs="1"
                         maxOccurs="1"
                         nillable="true">

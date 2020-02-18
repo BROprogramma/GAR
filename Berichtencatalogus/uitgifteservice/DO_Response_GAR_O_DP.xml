@@ -134,7 +134,7 @@
               <!-- 1 or more repetitions: -->
               <garcom:analysis>
                 <garcom:parameter>1270</garcom:parameter>
-                <garcom:analysisMeasurementValue uom="mg/l">5</garcom:analysisMeasurementValue>
+                <garcom:analysisMeasurementValue xsi:nil="true"/>
                 <!-- Optional:
                 <garcom:limitSymbol codeSpace="urn:bro:gar:LimitSymbol">?</garcom:limitSymbol>
                 -->
