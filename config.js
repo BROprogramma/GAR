@@ -1,8 +1,8 @@
 var respecConfig = {
-  specStatus: "GN-DEF",
+  specStatus: "GN-WV",
   specType: "IM",
   //canonicalURI: "WV",
-  publishDate: "2020-03-26",
+  //publishDate: "2020-03-26",
   maxTocLevel: 3,
    logos: [ {
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
@@ -24,8 +24,8 @@ var respecConfig = {
   shortName: "gar",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GAR",
-  previousPublishDate: "2019-03-25",
-  previousStatus: "GN-CV",
+  previousPublishDate: "20202-03-26",
+  previousStatus: "GN-DEF",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
