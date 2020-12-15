@@ -24,7 +24,7 @@ var respecConfig = {
   shortName: "gar",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GAR",
-  previousPublishDate: "20202-03-26",
+  previousPublishDate: "2020-03-26",
   previousStatus: "GN-DEF",
   //localBiblio: {
   //  "ISO19136": {
