@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:isgar="http://www.broservices.nl/xsd/isgar/1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:garcom="http://www.broservices.nl/xsd/garcommon/1.0"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           targetNamespace="http://www.broservices.nl/xsd/isgar/1.0"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="0.7.1">
+
+   <xs:annotation>
+      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+      </xs:appinfo>
+   </xs:annotation>
+
+    <!--
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/garcommon/1.0/garcommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    -->
+
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/1.0" schemaLocation="garcommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+
+   <xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
+   <xs:element name="parseFault" type="brocom:ParseFaultType" />
+
+   <xs:element name="correctionRequest" type="isgar:CorrectionRequestType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht CorrectionRequest is een specialisatie van de abstract klasse CorrectionRequest uit de package brocommon, waaraan het een correctiereden en een brondocument toevoegt. Met een CorrectionRequest, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, worden in de registratie opgenomen gegevens vervangen.
+            Explanation: Gegevens over een registratieobject zonder levenscyclus, zoals bij een grondwatersamenstellingsonderzoek, worden eenmalig geregistreerd. Met een correctieverzoek kunnen fouten in geregistreerde gegevens in de BRO worden verbeterd. Vervangen houdt in dat alle in de registratie opgenomen gegevens van een registratieobject worden vervangen door de gegevens in het brondocument van het correctieverzoek.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="CorrectionRequestType">
+      <xs:complexContent>
+         <xs:extension base="brocom:CorrectionRequestType">
+            <xs:sequence>
+               <xs:element name="correctionReason"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="isgar:CorrectionReasonType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>CorrectionReason</CodeListName>
+                        <CodeListURI>urn:bro:gar:CorrectionReason</CodeListURI>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De reden waarom de geregistreerde gegevens worden vervangen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="sourceDocument"
+                           nillable="false"
+                           type="isgar:GARPropertyType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het innameverzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+
+   <xs:element name="registrationRequest" type="isgar:RegistrationRequestType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht RegistrationRequest is een specialisatie van de abstract klasse RegistrationRequest uit de package brocommon, waaraan het een sourceDocument toevoegt. Met dit bericht kan een nog niet geregistreerd grondwatersamenstellingsonderzoek in de BRO worden opgenomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="RegistrationRequestType">
+      <xs:complexContent>
+         <xs:extension base="brocom:RegistrationRequestType">
+            <xs:sequence>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="sourceDocument"
+                           nillable="false"
+                           type="isgar:GARPropertyType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het innameverzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+
+   <xs:element name="GAR"
+               type="isgar:GARType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument dat een grondwatersamenstellingsonderzoek in zijn volledigheid beschrijft.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GARType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="objectIdAccountableParty"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
+                        Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityControlMethod"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="garcom:QualityControlMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>QualityControlMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het protocol of werkvoorschrift dat is toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1"
+                           maxOccurs="unbounded"
+                           name="groundwaterMonitoringNet"
+                           nillable="false"
+                           type="garcom:GroundwaterMonitoringNetPropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="monitoringPoint"
+                           nillable="false"
+                           type="garcom:GroundwaterMonitoringTubePropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="fieldResearch"
+                           nillable="false"
+                           type="garcom:FieldResearchType"/>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="laboratoryAnalysis"
+                           nillable="false"
+                           type="garcom:LaboratoryAnalysisType"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GARPropertyType">
+      <xs:sequence minOccurs="1">
+         <xs:element ref="isgar:GAR"/>
+      </xs:sequence>
+   </xs:complexType>
+
+   <xs:complexType name="CorrectionReasonType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:gar:CorrectionReason"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+</xs:schema>
