@@ -1,9 +1,9 @@
 var respecConfig = {
-  specStatus: "GN-CV",
+  specStatus: "GN-WV",
   specType: "IM",
   //canonicalURI: "WV",
-  //publishDate: "2020-03-26",
-  maxTocLevel: 3,
+  //publishDate: "2023-05-04",
+  maxTocLevel: 4,
    logos: [ {
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
@@ -24,8 +24,8 @@ var respecConfig = {
   shortName: "gar",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GAR",
-  previousPublishDate: "2020-03-26",
-  previousStatus: "GN-DEF",
+  previousPublishDate: "2023-05-04",
+  previousStatus: "GN-VV",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
