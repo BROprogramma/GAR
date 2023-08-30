@@ -1,8 +1,8 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-DEF",
   specType: "IM",
   //canonicalURI: "WV",
-  //publishDate: "2023-05-04",
+  publishDate: "2024-01-01",
   maxTocLevel: 4,
    logos: [ {
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
