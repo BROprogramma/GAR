@@ -7361,6 +7361,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>5936</ID>
+		<aquocode>PFC9asfzr</aquocode>
+		<CASnummer>68259-12-1</CASnummer>
+		<omschrijving>perfluornonaan-1-sulfonzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>5937</ID>
 		<aquocode>N-MeFOSAA</aquocode>
 		<CASnummer>2355-31-9</CASnummer>
@@ -7513,6 +7521,22 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>6437</ID>
+		<aquocode>PFUdAS</aquocode>
+		<CASnummer>749786-16-1</CASnummer>
+		<omschrijving>perfluorundecaansulfonzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6439</ID>
+		<aquocode>PFTDAS</aquocode>
+		<CASnummer>791563-89-8</CASnummer>
+		<omschrijving>perfluortridecaansulfonzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>6451</ID>
 		<aquocode>crotmtn</aquocode>
 		<CASnummer>483-63-6</CASnummer>
@@ -7524,7 +7548,7 @@
 		<ID>6452</ID>
 		<aquocode>42FTOH</aquocode>
 		<CASnummer>2043-47-2</CASnummer>
-		<omschrijving>perfluorethylethanol 4:2</omschrijving>
+		<omschrijving>perfluorbutylethanol 4:2</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
