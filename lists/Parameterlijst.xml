@@ -273,6 +273,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>49</ID>
+		<aquocode>13DClC3e</aquocode>
+		<CASnummer>542-75-6</CASnummer>
+		<omschrijving>1,3-dichloorpropeen</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>54</ID>
 		<aquocode>14DClBen</aquocode>
 		<CASnummer>106-46-7</CASnummer>
@@ -1281,6 +1289,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>404</ID>
+		<aquocode>bupfzn</aquocode>
+		<CASnummer>69327-76-0</CASnummer>
+		<omschrijving>buprofezin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>406</ID>
 		<aquocode>C4ol</aquocode>
 		<CASnummer>71-36-3</CASnummer>
@@ -1740,7 +1756,7 @@
 		<ID>615</ID>
 		<aquocode>sDClFol6</aquocode>
 		<CASnummer>NVT</CASnummer>
-		<omschrijving>som 6 dichloorfenolen (Bbk, 1-1-2008)</omschrijving>
+		<omschrijving>som 6 dichloorfenolen</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -3241,6 +3257,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>1450</ID>
+		<aquocode>pyrdbn</aquocode>
+		<CASnummer>96489-71-3</CASnummer>
+		<omschrijving>pyridaben</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>1451</ID>
 		<aquocode>pyrdne</aquocode>
 		<CASnummer>110-86-1</CASnummer>
@@ -3849,6 +3873,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>1802</ID>
+		<aquocode>coumttll</aquocode>
+		<CASnummer>5836-29-3</CASnummer>
+		<omschrijving>coumatetralyl</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>1803</ID>
 		<aquocode>CO2</aquocode>
 		<CASnummer>124-38-9</CASnummer>
@@ -4109,6 +4141,14 @@
 		<aquocode>DEET</aquocode>
 		<CASnummer>134-62-3</CASnummer>
 		<omschrijving>diethyltoluamide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>2312</ID>
+		<aquocode>17aestDol</aquocode>
+		<CASnummer>57-91-0</CASnummer>
+		<omschrijving>17alpha-estradiol</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -4753,6 +4793,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>3051</ID>
+		<aquocode>45DCl2C8y2Hi</aquocode>
+		<CASnummer>64359-81-5</CASnummer>
+		<omschrijving>4,5-dichloor-2-octyl-2H-isothiazool-3-on</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>3054</ID>
 		<aquocode>4Aoatprne</aquocode>
 		<CASnummer>83-07-8</CASnummer>
@@ -4773,6 +4821,14 @@
 		<aquocode>acnfn</aquocode>
 		<CASnummer>74070-46-5</CASnummer>
 		<omschrijving>aclonifen</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>3129</ID>
+		<aquocode>acpmtn</aquocode>
+		<CASnummer>67375-30-8</CASnummer>
+		<omschrijving>alfa-cypermethrin</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -4865,6 +4921,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>3193</ID>
+		<aquocode>azdrtn</aquocode>
+		<CASnummer>11141-17-6</CASnummer>
+		<omschrijving>azadirachtin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>3195</ID>
 		<aquocode>azmtfs</aquocode>
 		<CASnummer>35575-96-3</CASnummer>
@@ -4953,6 +5017,30 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>3283</ID>
+		<aquocode>brodfcm</aquocode>
+		<CASnummer>56073-10-0</CASnummer>
+		<omschrijving>brodifacum</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>3284</ID>
+		<aquocode>bromcnzl</aquocode>
+		<CASnummer>116255-48-2</CASnummer>
+		<omschrijving>bromuconazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>3285</ID>
+		<aquocode>bromdoln</aquocode>
+		<CASnummer>28772-56-7</CASnummer>
+		<omschrijving>bromadiolon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>3318</ID>
 		<aquocode>C1oxfnzde</aquocode>
 		<CASnummer>161050-58-4</CASnummer>
@@ -5009,6 +5097,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>3416</ID>
+		<aquocode>chloftzn</aquocode>
+		<CASnummer>74115-24-5</CASnummer>
+		<omschrijving>chlofentezin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>3434</ID>
 		<aquocode>cindnC2y</aquocode>
 		<CASnummer>142891-20-1</CASnummer>
@@ -5029,6 +5125,14 @@
 		<aquocode>clartmcne</aquocode>
 		<CASnummer>81103-11-9</CASnummer>
 		<omschrijving>claritromycine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>3456</ID>
+		<aquocode>cletdm</aquocode>
+		<CASnummer>99129-21-2</CASnummer>
+		<omschrijving>clethodim</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -5117,6 +5221,14 @@
 		<aquocode>cyazfAd</aquocode>
 		<CASnummer>120116-88-3</CASnummer>
 		<omschrijving>cyazofamide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>3536</ID>
+		<aquocode>cymOanl</aquocode>
+		<CASnummer>57966-95-7</CASnummer>
+		<omschrijving>cymoxanil</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -5401,6 +5513,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>3729</ID>
+		<aquocode>etfn</aquocode>
+		<CASnummer>16672-87-0</CASnummer>
+		<omschrijving>ethefon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>3732</ID>
 		<aquocode>etofcbsfn</aquocode>
 		<CASnummer>53380-23-7</CASnummer>
@@ -5441,6 +5561,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>3760</ID>
+		<aquocode>fenbdzl</aquocode>
+		<CASnummer>43210-67-9</CASnummer>
+		<omschrijving>fenbendazol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>3761</ID>
 		<aquocode>fenbtSnO</aquocode>
 		<CASnummer>13356-08-6</CASnummer>
@@ -5477,6 +5605,14 @@
 		<aquocode>fenOxcb</aquocode>
 		<CASnummer>72490-01-8</CASnummer>
 		<omschrijving>fenoxycarb</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>3770</ID>
+		<aquocode>fenppdn</aquocode>
+		<CASnummer>67306-00-7</CASnummer>
+		<omschrijving>fenpropidin</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -5529,10 +5665,26 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>3806</ID>
+		<aquocode>flucnzl</aquocode>
+		<CASnummer>86386-73-4</CASnummer>
+		<omschrijving>fluconazol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>3808</ID>
 		<aquocode>fludoxnl</aquocode>
 		<CASnummer>131341-86-1</CASnummer>
 		<omschrijving>fludioxonil</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>3809</ID>
+		<aquocode>flufnct</aquocode>
+		<CASnummer>142459-58-3</CASnummer>
+		<omschrijving>flufenacet</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -5777,6 +5929,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4014</ID>
+		<aquocode>IppnC4ycbmt</aquocode>
+		<CASnummer>55406-53-6</CASnummer>
+		<omschrijving>joodpropynylbutylcarbamaat</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4018</ID>
 		<aquocode>Ir</aquocode>
 		<CASnummer>7439-88-5</CASnummer>
@@ -5813,6 +5973,14 @@
 		<aquocode>ivmctne</aquocode>
 		<CASnummer>70288-86-7</CASnummer>
 		<omschrijving>ivermectine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4036</ID>
+		<aquocode>ixdfnC2y</aquocode>
+		<CASnummer>163520-33-0</CASnummer>
+		<omschrijving>isoxadifen-ethyl</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -5905,6 +6073,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4087</ID>
+		<aquocode>levmsl</aquocode>
+		<CASnummer>14769-73-4</CASnummer>
+		<omschrijving>levamisol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4088</ID>
 		<aquocode>levtrctm</aquocode>
 		<CASnummer>102767-28-2</CASnummer>
@@ -5989,6 +6165,14 @@
 		<aquocode>mefpDC2y</aquocode>
 		<CASnummer>135590-91-9</CASnummer>
 		<omschrijving>mefenpyr-diethyl</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4148</ID>
+		<aquocode>mepnprm</aquocode>
+		<CASnummer>110235-47-7</CASnummer>
+		<omschrijving>mepanipyrim</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -6081,6 +6265,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4235</ID>
+		<aquocode>natmcn</aquocode>
+		<CASnummer>7681-93-8</CASnummer>
+		<omschrijving>natamycin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4254</ID>
 		<aquocode>nicsfrn</aquocode>
 		<CASnummer>111991-09-4</CASnummer>
@@ -6093,6 +6285,14 @@
 		<aquocode>norfxcne</aquocode>
 		<CASnummer>70458-96-7</CASnummer>
 		<omschrijving>norfloxacine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4296</ID>
+		<aquocode>OaDazn</aquocode>
+		<CASnummer>19666-30-9</CASnummer>
+		<omschrijving>oxadiazon</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -6110,6 +6310,22 @@
 		<CASnummer>82419-36-1</CASnummer>
 		<omschrijving>ofloxacine</omschrijving>
 		<eenheid>ng/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4313</ID>
+		<aquocode>Oolnzr</aquocode>
+		<CASnummer>14698-29-4</CASnummer>
+		<omschrijving>oxolinezuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4321</ID>
+		<aquocode>orzln</aquocode>
+		<CASnummer>19044-88-3</CASnummer>
+		<omschrijving>oryzalin</omschrijving>
+		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
@@ -6345,6 +6561,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4503</ID>
+		<aquocode>propqzfp</aquocode>
+		<CASnummer>111479-05-1</CASnummer>
+		<omschrijving>propaquizafop</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4507</ID>
 		<aquocode>prosfrn</aquocode>
 		<CASnummer>94125-34-5</CASnummer>
@@ -6529,6 +6753,22 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4695</ID>
+		<aquocode>spinsnA</aquocode>
+		<CASnummer>131929-60-7</CASnummer>
+		<omschrijving>spinosynA</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4697</ID>
+		<aquocode>spirdcfn</aquocode>
+		<CASnummer>148477-71-8</CASnummer>
+		<omschrijving>spirodiclofen</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4735</ID>
 		<aquocode>sulcton</aquocode>
 		<CASnummer>99105-77-8</CASnummer>
@@ -6557,6 +6797,14 @@
 		<aquocode>sulfdmtoxne</aquocode>
 		<CASnummer>122-11-2</CASnummer>
 		<omschrijving>sulfadimethoxine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4739</ID>
+		<aquocode>sulfdxne</aquocode>
+		<CASnummer>2447-57-6</CASnummer>
+		<omschrijving>sulfadoxine</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -6590,6 +6838,22 @@
 		<CASnummer>60-54-8</CASnummer>
 		<omschrijving>tetracycline</omschrijving>
 		<eenheid>ng/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4762</ID>
+		<aquocode>T4cnzl</aquocode>
+		<CASnummer>112281-77-3</CASnummer>
+		<omschrijving>tetraconazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4763</ID>
+		<aquocode>T4cycnHCl</aquocode>
+		<CASnummer>64-75-5</CASnummer>
+		<omschrijving>tetracycline hydrochloride</omschrijving>
+		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
@@ -6793,6 +7057,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4869</ID>
+		<aquocode>tilmcsne</aquocode>
+		<CASnummer>108050-54-0</CASnummer>
+		<omschrijving>tilmicosine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4874</ID>
 		<aquocode>Tm</aquocode>
 		<CASnummer>7440-30-4</CASnummer>
@@ -6889,10 +7161,26 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4912</ID>
+		<aquocode>valstan</aquocode>
+		<CASnummer>137862-53-4</CASnummer>
+		<omschrijving>valsartan</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4913</ID>
 		<aquocode>valum</aquocode>
 		<CASnummer>439-14-5</CASnummer>
 		<omschrijving>valium</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4915</ID>
+		<aquocode>venlfxne</aquocode>
+		<CASnummer>93413-69-5</CASnummer>
+		<omschrijving>venlafaxine</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -6909,6 +7197,14 @@
 		<aquocode>Xe</aquocode>
 		<CASnummer>7440-63-3</CASnummer>
 		<omschrijving>xenon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4932</ID>
+		<aquocode>zOaAd</aquocode>
+		<CASnummer>156052-68-5</CASnummer>
+		<omschrijving>zoxamide</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -6949,6 +7245,14 @@
 		<aquocode>imzmx</aquocode>
 		<CASnummer>114311-32-9</CASnummer>
 		<omschrijving>imazamox</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5048</ID>
+		<aquocode>ioxnOcnat</aquocode>
+		<CASnummer>3861-47-0</CASnummer>
+		<omschrijving>ioxynil octanoaat</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7017,6 +7321,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>5120</ID>
+		<aquocode>danfxcn</aquocode>
+		<CASnummer>112398-08-0</CASnummer>
+		<omschrijving>danofloxacin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>5124</ID>
 		<aquocode>OxT4ccnHCl</aquocode>
 		<CASnummer>2058-46-0</CASnummer>
@@ -7069,6 +7381,14 @@
 		<aquocode>amttdn</aquocode>
 		<CASnummer>865318-97-4</CASnummer>
 		<omschrijving>ametoctradin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5244</ID>
+		<aquocode>emmtbzat</aquocode>
+		<CASnummer>155569-91-8</CASnummer>
+		<omschrijving>emamectin-benzoaat</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7181,6 +7501,14 @@
 		<aquocode>guanurum</aquocode>
 		<CASnummer>141-83-3</CASnummer>
 		<omschrijving>guanylureum</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5309</ID>
+		<aquocode>DHT</aquocode>
+		<CASnummer>521-18-6</CASnummer>
+		<omschrijving>dihydrotestosterone</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7321,6 +7649,38 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>5815</ID>
+		<aquocode>metlClC2asfz</aquocode>
+		<CASnummer>171118-09-5</CASnummer>
+		<omschrijving>metolachlor ethaansulfonzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5816</ID>
+		<aquocode>metlClOoHac</aquocode>
+		<CASnummer>152019-73-3</CASnummer>
+		<omschrijving>metolachlor oxo azijnzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5818</ID>
+		<aquocode>pentoprd</aquocode>
+		<CASnummer>183675-82-3</CASnummer>
+		<omschrijving>penthiopyrad</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5819</ID>
+		<aquocode>tecrbzneC1y</aquocode>
+		<CASnummer>317815-83-1</CASnummer>
+		<omschrijving>thiencarbazone-methyl</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>5825</ID>
 		<aquocode>1458T4Ao910a</aquocode>
 		<CASnummer>2475-45-8</CASnummer>
@@ -7353,6 +7713,30 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>5833</ID>
+		<aquocode>sindxcb</aquocode>
+		<CASnummer>144171-61-9</CASnummer>
+		<omschrijving>som indoxacarb (S- en R-isomeer)</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5885</ID>
+		<aquocode>sedxne</aquocode>
+		<CASnummer>874967-67-6</CASnummer>
+		<omschrijving>sedaxane</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5888</ID>
+		<aquocode>TFHAc</aquocode>
+		<CASnummer>76-05-1</CASnummer>
+		<omschrijving>trifluorazijnzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>5935</ID>
 		<aquocode>PFC5asfzr</aquocode>
 		<CASnummer>2706-91-4</CASnummer>
@@ -7377,11 +7761,59 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>5942</ID>
+		<aquocode>dormtne</aquocode>
+		<CASnummer>117704-25-3</CASnummer>
+		<omschrijving>doramectine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5943</ID>
+		<aquocode>epnmtn</aquocode>
+		<CASnummer>123997-26-2</CASnummer>
+		<omschrijving>eprinomectin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>5944</ID>
 		<aquocode>flubdzle</aquocode>
 		<CASnummer>31430-15-6</CASnummer>
 		<omschrijving>flubendazole</omschrijving>
 		<eenheid>ng/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5946</ID>
+		<aquocode>moxdtn</aquocode>
+		<CASnummer>113507-06-5</CASnummer>
+		<omschrijving>moxidectin</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5947</ID>
+		<aquocode>oxfdzle</aquocode>
+		<CASnummer>53716-50-0</CASnummer>
+		<omschrijving>oxfendazole</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5960</ID>
+		<aquocode>metzClC2asfz</aquocode>
+		<CASnummer>172960-62-2</CASnummer>
+		<omschrijving>metazachloor-ethaansulfonzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5961</ID>
+		<aquocode>Nact4Aoatprn</aquocode>
+		<CASnummer>83-15-8</CASnummer>
+		<omschrijving>N-acetyl-4-aminoantipyrine</omschrijving>
+		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
@@ -7433,6 +7865,22 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>5980</ID>
+		<aquocode>lamtgne</aquocode>
+		<CASnummer>84057-84-1</CASnummer>
+		<omschrijving>lamotrigine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5982</ID>
+		<aquocode>4formAoatprn</aquocode>
+		<CASnummer>1672-58-8</CASnummer>
+		<omschrijving>4-formylaminoantipyrine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>5996</ID>
 		<aquocode>H-PFC6asfzr</aquocode>
 		<CASnummer>757124-72-4</CASnummer>
@@ -7445,6 +7893,14 @@
 		<aquocode>bisPFC10yPO4</aquocode>
 		<CASnummer>678-41-1</CASnummer>
 		<omschrijving>bisperfluordecylwaterstoffosfaat (8:2 diPAP)</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5999</ID>
+		<aquocode>ADONA</aquocode>
+		<CASnummer>958445-44-8</CASnummer>
+		<omschrijving>ammonium 4,8-dioxa-3H-perfluornonanoaat</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7497,6 +7953,38 @@
 		<hoedanigheid>TU</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>6033</ID>
+		<aquocode>Oxcznde</aquocode>
+		<CASnummer>2277-92-1</CASnummer>
+		<omschrijving>oxyclozanide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6034</ID>
+		<aquocode>Tcbdzl</aquocode>
+		<CASnummer>68786-66-3</CASnummer>
+		<omschrijving>triclabendazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6058</ID>
+		<aquocode>valstzr</aquocode>
+		<CASnummer>164265-78-5</CASnummer>
+		<omschrijving>valsartanzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6060</ID>
+		<aquocode>Oxprnl</aquocode>
+		<CASnummer>2465-59-0</CASnummer>
+		<omschrijving>oxypurinol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>6069</ID>
 		<aquocode>1011cDolcarb</aquocode>
 		<CASnummer>35079-97-1</CASnummer>
@@ -7521,10 +8009,42 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>6146</ID>
+		<aquocode>prazqtl</aquocode>
+		<CASnummer>55268-74-1</CASnummer>
+		<omschrijving>praziquantel</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6150</ID>
+		<aquocode>andtdn</aquocode>
+		<CASnummer>63-05-8</CASnummer>
+		<omschrijving>androsteendion</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6269</ID>
+		<aquocode>sulfmtzl</aquocode>
+		<CASnummer>144-82-1</CASnummer>
+		<omschrijving>sulfamethizol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>6437</ID>
 		<aquocode>PFUdAS</aquocode>
 		<CASnummer>749786-16-1</CASnummer>
 		<omschrijving>perfluorundecaansulfonzuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6438</ID>
+		<aquocode>PFDoAS</aquocode>
+		<CASnummer>79780-39-5</CASnummer>
+		<omschrijving>perfluordodecaansulfonzuur</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7585,6 +8105,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>6523</ID>
+		<aquocode>spirmcI</aquocode>
+		<CASnummer>24916-50-5</CASnummer>
+		<omschrijving>spiramycine I</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>6726</ID>
 		<aquocode>sAEs</aquocode>
 		<CASnummer>NVT</CASnummer>
@@ -7597,6 +8125,486 @@
 		<aquocode>spetlusfntn</aquocode>
 		<CASnummer>NVT</CASnummer>
 		<omschrijving>som petroleumsulfonaten</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6924</ID>
+		<aquocode>carpfn</aquocode>
+		<CASnummer>53716-49-7</CASnummer>
+		<omschrijving>carprofen</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6925</ID>
+		<aquocode>sulftzl</aquocode>
+		<CASnummer>72-14-0</CASnummer>
+		<omschrijving>sulfathiazol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>6986</ID>
+		<aquocode>toltzrl</aquocode>
+		<CASnummer>69004-03-1</CASnummer>
+		<omschrijving>toltrazuril</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7162</ID>
+		<aquocode>neospirmcI</aquocode>
+		<CASnummer>70253-62-2</CASnummer>
+		<omschrijving>neospiramycin I</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7165</ID>
+		<aquocode>HOxflubdzle</aquocode>
+		<CASnummer>82050-12-2</CASnummer>
+		<omschrijving>hydroxyflubendazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7166</ID>
+		<aquocode>sulffrzl</aquocode>
+		<CASnummer>127-69-5</CASnummer>
+		<omschrijving>sulfafurazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7167</ID>
+		<aquocode>5HOxmbdzl</aquocode>
+		<CASnummer>60254-95-7</CASnummer>
+		<omschrijving>5-hydroxymebendazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7168</ID>
+		<aquocode>4NO23TFC1yFn</aquocode>
+		<CASnummer>88-30-2</CASnummer>
+		<omschrijving>4-nitro-3-(trifluormethyl)fenol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7169</ID>
+		<aquocode>minccnne</aquocode>
+		<CASnummer>10118-90-8</CASnummer>
+		<omschrijving>minocycline</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7170</ID>
+		<aquocode>metccne</aquocode>
+		<CASnummer>914-00-1</CASnummer>
+		<omschrijving>methacycline</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7171</ID>
+		<aquocode>sulfmxl</aquocode>
+		<CASnummer>729-99-7</CASnummer>
+		<omschrijving>sulfamoxool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7172</ID>
+		<aquocode>sulfmtxprazn</aquocode>
+		<CASnummer>80-35-3</CASnummer>
+		<omschrijving>sulfamethoxypyridazine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7173</ID>
+		<aquocode>sulfmnmtxne</aquocode>
+		<CASnummer>1220-83-3</CASnummer>
+		<omschrijving>sulfamonomethoxine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7174</ID>
+		<aquocode>sulfcamde</aquocode>
+		<CASnummer>144-80-9</CASnummer>
+		<omschrijving>sulfaceetamide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7175</ID>
+		<aquocode>sulffnzl</aquocode>
+		<CASnummer>526-08-9</CASnummer>
+		<omschrijving>sulfafenazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7176</ID>
+		<aquocode>josmcne</aquocode>
+		<CASnummer>16846-24-5</CASnummer>
+		<omschrijving>josamycine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7177</ID>
+		<aquocode>tultmcne</aquocode>
+		<CASnummer>217500-96-4</CASnummer>
+		<omschrijving>tulathromycine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7178</ID>
+		<aquocode>pirlmcne</aquocode>
+		<CASnummer>79548-73-5</CASnummer>
+		<omschrijving>pirlimycine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7179</ID>
+		<aquocode>valnmlne</aquocode>
+		<CASnummer>101312-92-9</CASnummer>
+		<omschrijving>valnemuline</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7180</ID>
+		<aquocode>tylvlsne</aquocode>
+		<CASnummer>63409-12-1</CASnummer>
+		<omschrijving>tylvalosine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7181</ID>
+		<aquocode>garntmcne</aquocode>
+		<CASnummer>145435-72-9</CASnummer>
+		<omschrijving>gamithromycine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7182</ID>
+		<aquocode>tildprsne</aquocode>
+		<CASnummer>328898-40-4</CASnummer>
+		<omschrijving>tildipirosine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7183</ID>
+		<aquocode>vancmcne</aquocode>
+		<CASnummer>1404-90-6</CASnummer>
+		<omschrijving>vancomycine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7184</ID>
+		<aquocode>marbfacne</aquocode>
+		<CASnummer>115550-35-1</CASnummer>
+		<omschrijving>marbofloxacine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7185</ID>
+		<aquocode>sarfacne</aquocode>
+		<CASnummer>98105-99-8</CASnummer>
+		<omschrijving>sarafloxacine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7186</ID>
+		<aquocode>difacne</aquocode>
+		<CASnummer>98106-17-3</CASnummer>
+		<omschrijving>difloxacine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7187</ID>
+		<aquocode>naldxnzr</aquocode>
+		<CASnummer>389-08-2</CASnummer>
+		<omschrijving>nalidixinezuur</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7188</ID>
+		<aquocode>trovface</aquocode>
+		<CASnummer>147059-72-1</CASnummer>
+		<omschrijving>trovafloxacine</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7189</ID>
+		<aquocode>albdzl</aquocode>
+		<CASnummer>54965-21-8</CASnummer>
+		<omschrijving>albendazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7190</ID>
+		<aquocode>albdzSO</aquocode>
+		<CASnummer>54029-12-8</CASnummer>
+		<omschrijving>albendazolsulfoxide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7191</ID>
+		<aquocode>albdzsfn</aquocode>
+		<CASnummer>75184-71-3</CASnummer>
+		<omschrijving>albendazolsulfon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7192</ID>
+		<aquocode>albdz2amnsfn</aquocode>
+		<CASnummer>80983-34-2</CASnummer>
+		<omschrijving>albendazol-2-aminosulfon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7193</ID>
+		<aquocode>fenbdzsfn</aquocode>
+		<CASnummer>54029-20-8</CASnummer>
+		<omschrijving>fenbendazoolsulfon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7194</ID>
+		<aquocode>Aombdzl</aquocode>
+		<CASnummer>52329-60-9</CASnummer>
+		<omschrijving>aminomebendazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7195</ID>
+		<aquocode>Oxbdzl</aquocode>
+		<CASnummer>20559-55-1</CASnummer>
+		<omschrijving>oxibendazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7196</ID>
+		<aquocode>TcbdzSO</aquocode>
+		<CASnummer>100648-13-3</CASnummer>
+		<omschrijving>triclabendazoolsulfoxide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7197</ID>
+		<aquocode>Tcbdzsfn</aquocode>
+		<CASnummer>106791-37-1</CASnummer>
+		<omschrijving>triclabendazoolsulfon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7198</ID>
+		<aquocode>kettcbdzl</aquocode>
+		<CASnummer>1201920-88-8</CASnummer>
+		<omschrijving>ketotriclabendazool</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7199</ID>
+		<aquocode>bitnl</aquocode>
+		<CASnummer>97-18-7</CASnummer>
+		<omschrijving>bithionol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7200</ID>
+		<aquocode>clorsln</aquocode>
+		<CASnummer>60200-06-8</CASnummer>
+		<omschrijving>clorsulon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7201</ID>
+		<aquocode>clostl</aquocode>
+		<CASnummer>57808-65-8</CASnummer>
+		<omschrijving>closantel</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7202</ID>
+		<aquocode>halxn</aquocode>
+		<CASnummer>321-55-1</CASnummer>
+		<omschrijving>haloxon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7203</ID>
+		<aquocode>mortl</aquocode>
+		<CASnummer>20574-50-9</CASnummer>
+		<omschrijving>morantel</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7204</ID>
+		<aquocode>nicAd</aquocode>
+		<CASnummer>50-65-7</CASnummer>
+		<omschrijving>niclosamide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7205</ID>
+		<aquocode>NO2xnl</aquocode>
+		<CASnummer>1689-89-0</CASnummer>
+		<omschrijving>nitroxinil</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7206</ID>
+		<aquocode>Oatl</aquocode>
+		<CASnummer>36531-26-7</CASnummer>
+		<omschrijving>oxantel</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7207</ID>
+		<aquocode>pyrtl</aquocode>
+		<CASnummer>15686-83-6</CASnummer>
+		<omschrijving>pyrantel</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7208</ID>
+		<aquocode>rafande</aquocode>
+		<CASnummer>22662-39-1</CASnummer>
+		<omschrijving>rafoxanide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7209</ID>
+		<aquocode>salcanlde</aquocode>
+		<CASnummer>87-17-2</CASnummer>
+		<omschrijving>salicylanilide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7210</ID>
+		<aquocode>ponzrl</aquocode>
+		<CASnummer>69004-04-2</CASnummer>
+		<omschrijving>ponazuril</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7211</ID>
+		<aquocode>17anortttrn</aquocode>
+		<CASnummer>4409-34-1</CASnummer>
+		<omschrijving>17alfa-nortestosteron</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7212</ID>
+		<aquocode>17bnortttrn</aquocode>
+		<CASnummer>434-22-0</CASnummer>
+		<omschrijving>17beta-nortestosteron</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7213</ID>
+		<aquocode>19nor4adtndn</aquocode>
+		<CASnummer>734-32-7</CASnummer>
+		<omschrijving>19-nor-4-androstenedion</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7214</ID>
+		<aquocode>17atesttrn</aquocode>
+		<CASnummer>481-30-1</CASnummer>
+		<omschrijving>17alfa-testosteron</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7215</ID>
+		<aquocode>17btesttrn</aquocode>
+		<CASnummer>58-22-0</CASnummer>
+		<omschrijving>17beta-testosteron</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7216</ID>
+		<aquocode>5bDHtttrn</aquocode>
+		<CASnummer>571-22-2</CASnummer>
+		<omschrijving>5beta-dihydrotestosteron</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7217</ID>
+		<aquocode>17aboldnn</aquocode>
+		<CASnummer>27833-18-7</CASnummer>
+		<omschrijving>17alfa-boldenon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7218</ID>
+		<aquocode>17bboldnn</aquocode>
+		<CASnummer>846-48-0</CASnummer>
+		<omschrijving>17beta-boldenon</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7219</ID>
+		<aquocode>andt14dn317d</aquocode>
+		<CASnummer>897-06-3</CASnummer>
+		<omschrijving>androsta-1,4-diene-3,17-dion</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7220</ID>
+		<aquocode>pregnndl</aquocode>
+		<CASnummer>80-92-2</CASnummer>
+		<omschrijving>pregnanediol</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
