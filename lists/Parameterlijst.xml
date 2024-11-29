@@ -1417,6 +1417,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>480</ID>
+		<aquocode>sCldn</aquocode>
+		<CASnummer>NVT</CASnummer>
+		<omschrijving>som chloordaan (som cis- en trans-)</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>482</ID>
 		<aquocode>sClFol</aquocode>
 		<CASnummer>NVT</CASnummer>
@@ -6340,7 +6348,7 @@
 		<ID>4333</ID>
 		<aquocode>sct13DClC3e</aquocode>
 		<CASnummer>NVT</CASnummer>
-		<omschrijving>som cis- en trans-1,3-dichloorpropeen</omschrijving>
+		<omschrijving>VERVALLEN; som cis- en trans-1,3-dichloorpropeen &gt;&gt; gebruik voortaan ID 49</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -6348,7 +6356,7 @@
 		<ID>4336</ID>
 		<aquocode>OxT4ccne</aquocode>
 		<CASnummer>6153-64-6</CASnummer>
-		<omschrijving>oxytetracycline</omschrijving>
+		<omschrijving>VERVALLEN; oxytetracycline &gt;&gt; gebruik voortaan ID 7238</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7628,7 +7636,7 @@
 		<ID>5742</ID>
 		<aquocode>FRD-ai902903</aquocode>
 		<CASnummer>NVT</CASnummer>
-		<omschrijving>2,3,3,3-tetrafluor-2-(heptafluorpropoxy)propanoaat (anion)</omschrijving>
+		<omschrijving>VERVALLEN; 2,3,3,3-tetrafluor-2-(heptafluorpropoxy)propanoaat (anion) &gt;&gt; gebruik voortaan ID 5741</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7708,7 +7716,7 @@
 		<ID>5832</ID>
 		<aquocode>1011tDolcarb</aquocode>
 		<CASnummer>35079-97-1</CASnummer>
-		<omschrijving>10,11-transdiol carbamazepine &gt;&gt; gebruik voortaan ID 6069</omschrijving>
+		<omschrijving>VERVALLEN; 10,11-transdiol carbamazepine &gt;&gt; gebruik voortaan ID 6069</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7860,7 +7868,7 @@
 		<ID>5970</ID>
 		<aquocode>PFOA_NH4</aquocode>
 		<CASnummer>3825-26-1</CASnummer>
-		<omschrijving>perfluoroctaanzuur, ammoniumzout</omschrijving>
+		<omschrijving>VERVALLEN; perfluoroctaanzuur, ammoniumzout &gt;&gt; gebruik voortaan ID 4443</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7988,7 +7996,7 @@
 		<ID>6069</ID>
 		<aquocode>1011cDolcarb</aquocode>
 		<CASnummer>35079-97-1</CASnummer>
-		<omschrijving>10,11-cisdiol carbamazepine</omschrijving>
+		<omschrijving>VERVALLEN; 10,11-cisdiol carbamazepine &gt;&gt; gebruik voortaan ID 7241</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -8605,6 +8613,22 @@
 		<aquocode>pregnndl</aquocode>
 		<CASnummer>80-92-2</CASnummer>
 		<omschrijving>pregnanediol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7238</ID>
+		<aquocode>OxT4ccne02</aquocode>
+		<CASnummer>79-57-2</CASnummer>
+		<omschrijving>oxytetracycline</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>7241</ID>
+		<aquocode>1011DHOxcbzp</aquocode>
+		<CASnummer>35079-97-1</CASnummer>
+		<omschrijving>10,11-dihydroxycarbamazepine</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
