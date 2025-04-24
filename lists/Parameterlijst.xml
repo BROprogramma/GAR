@@ -697,6 +697,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>189</ID>
+		<aquocode>s35DC1yFol4C</aquocode>
+		<CASnummer>NVT</CASnummer>
+		<omschrijving>som 3,5-dimethylfenol en 4-ethylfenol</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>197</ID>
 		<aquocode>3ClAn</aquocode>
 		<CASnummer>108-42-9</CASnummer>
@@ -2518,6 +2526,14 @@
 		<CASnummer>7439-92-1</CASnummer>
 		<omschrijving>lood</omschrijving>
 		<eenheid>ug/l</eenheid>
+		<hoedanigheid>nf</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>1121</ID>
+		<aquocode>MGETAL</aquocode>
+		<CASnummer>NVT</CASnummer>
+		<omschrijving>M-getal</omschrijving>
+		<eenheid>mmol/l</eenheid>
 		<hoedanigheid>nf</hoedanigheid>
 	</Parameter>
 	<Parameter>
@@ -6729,6 +6745,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4625</ID>
+		<aquocode>Stot</aquocode>
+		<CASnummer>NVT</CASnummer>
+		<omschrijving>zwavel totaal</omschrijving>
+		<eenheid>mg/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4654</ID>
 		<aquocode>siltofm</aquocode>
 		<CASnummer>175217-20-6</CASnummer>
@@ -6761,10 +6785,26 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>4694</ID>
+		<aquocode>spinsd</aquocode>
+		<CASnummer>168316-95-8</CASnummer>
+		<omschrijving>spinosad</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>4695</ID>
 		<aquocode>spinsnA</aquocode>
 		<CASnummer>131929-60-7</CASnummer>
 		<omschrijving>spinosynA</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>4696</ID>
+		<aquocode>spinsnD</aquocode>
+		<CASnummer>131929-63-0</CASnummer>
+		<omschrijving>spinosynD</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
@@ -7529,6 +7569,14 @@
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
 	<Parameter>
+		<ID>5518</ID>
+		<aquocode>sverttPFOS</aquocode>
+		<CASnummer>NVT</CASnummer>
+		<omschrijving>som vertakte perfluoroctaansulfonzuur-isomeren</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
 		<ID>5561</ID>
 		<aquocode>Aoprld</aquocode>
 		<CASnummer>150114-71-9</CASnummer>
@@ -7565,6 +7613,14 @@
 		<aquocode>DC1ysAd</aquocode>
 		<CASnummer>3984-14-3</CASnummer>
 		<omschrijving>dimethylsulfamide</omschrijving>
+		<eenheid>ug/l</eenheid>
+		<hoedanigheid>NVT</hoedanigheid>
+	</Parameter>
+	<Parameter>
+		<ID>5577</ID>
+		<aquocode>sverttPFOA</aquocode>
+		<CASnummer>NVT</CASnummer>
+		<omschrijving>som vertakte perfluoroctaanzuur-isomeren</omschrijving>
 		<eenheid>ug/l</eenheid>
 		<hoedanigheid>NVT</hoedanigheid>
 	</Parameter>
