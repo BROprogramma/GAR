@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<domeintabel>
+	<Kleursterkte>
+	  <Waarde>zeer licht</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>zeer licht</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>licht</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>licht</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>neutraal</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>neutraal</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>donker</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>donker</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>zeer donker</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>zeer donker</Omschrijving>
+	</Kleursterkte>
+</domeintabel>

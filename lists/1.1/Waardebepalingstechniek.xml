@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Waardebepalingstechniek>
+		<Waarde>AA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Autoanalyser</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AA-FOTM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Autoanalyser - fotometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AAS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire absorptie spectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AAS-F</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire absorptie spectrometrie - flame</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AAS-GF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire absorptie spectrometrie - grafietoven</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AAS-HG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire absorptie spectrometrie - hydride generatie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AAS-KD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire absorptie spectrometrie - koude-damptechniek</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AERO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Aerometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AES-F</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire emissie spectrometrie - vlam</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AES-KD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire emissie spectrometrie - koude-damptechniek</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire fluorescentie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>AF-KD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Atomaire fluorescentie - koude-damptechniek</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>BACT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bacteriologie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>CALO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Calorimetrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>COND</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Conductometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>COUL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Coulometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>CUVT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Cuvettentest</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>DA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Discreetanalyser</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>DA-S</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Discreetanalyser - spectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>ELCH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Electrochemie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>ELMSR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Electromagnetische sensor</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>FL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fluorescentie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>FOTM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fotometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GAMMAS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gammaspectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-ECD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - electron capture detector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-ECD/ECD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - electron capture detector / el.capt.det.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-ECD/MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - electron capture detector / massaspect.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-FID</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - flame ionisation detector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-FID/ECD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - flame ionisation detector / el.capt.det.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-FID/IR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - flame ionisation detector / infrarood</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-FPD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - flame photometric detector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-HRMS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - hoge resolutie massaspectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-LRMS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - lage resolutie massaspectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - massaspectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-MS-HS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - massaspectrometrie - headspace</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-MS-LV-PTV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - massaspectrometrie - groot volume - PTV</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-MS-MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - massaspectrometrie - massaspectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-MS-PT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - massaspectrometrie - purge-and-trap</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-MS-PTV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - massaspectrometrie - PTV</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-MS-TD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - massaspectrometrie - thermal desorption</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GC-NPD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gaschromatografie - stikstof-fosfor detector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GENEPSLCFRSE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Genexpressie - luciferase</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>GRAV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gravimetrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>HPLC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoge druk vloeistofchromatografie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>HPLC-APCI-MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoge druk vloeistofchromatografie - atm.press.chem.ion. - MS</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>HPLC-DAD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoge druk vloeistofchromatografie - diode array detector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>HPLC-FL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoge druk vloeistofchromatografie - fluorescentiedetector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>HPLC-MS-ESI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoge druk vloeistofchromatografie - electrospray - massasp.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>HPLC-UV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoge druk vloeistofchromatografie - UV-detector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>HPLC-UV-FL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoge druk vloeistofchromatografie - UV- en fluoresc.detector</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>IC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ionchromatografie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>ICP-AES</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Inductie gekoppeld plasma - atomaire emissie spectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>ICP-HRMS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Inductie gekoppeld plasma - hoge resolutie massaspect.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>ICP-MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Inductie gekoppeld plasma - massaspectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>IR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Infrarooddetectie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>IR-FT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Infrarood - fourier transmission</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>JODM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Jodometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>LC-FL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vloeistofchromatografie - fluorescentie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>LC-GC-MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vloeistofchromatografie - gaschromatografie - massaspect.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>LC-MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vloeistofchromatografie - massaspectrometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>LC-MS-MS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vloeistofchromatografie - massaspectrometrie - massaspect.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>LC-TQMS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vloeistofchromatografie - tandem quadrupool massaspect.</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>LDO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Luminescentie opgelost zuurstof sensor</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>LSC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>vloeistofscintillatie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>MEMBF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Membraanfiltratie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>MICCOUL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Microcoulometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>MICCOUL-PT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Microcoulometrie - purge-and-trap</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>MICSCOP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Microscopie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>MICTTPT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Microtiter-plaat</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>NEFLMTE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nefelometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>ORGNLTSCH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organoleptisch</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>POTM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Potentiometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>POTM_TITM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Potentiometrische titratie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>RADOMT-BWHH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Radiometrie, boven water - hand-held</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>RADOMT-BWHHG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Radiometrie, boven water - hand-held met gyroscoop</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>RADOMT-BWVO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Radiometrie, boven water - vaste opstelling</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>RONTGDF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Röntgendiffractie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>RONTGTM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Röntgentransmissie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>RONTGTM_GRAV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Röntgentransmissie en gravimetrie (met zeef)</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>SEDI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sedigraaf</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>STER/POLMIC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stereo- en polarisatiemicrosopie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>THERMG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Thermografie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>THERMM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Thermometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>TITM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Titrimetrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>UV/VIS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Spectrofotometrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>VISL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Visueel</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>VOL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Volumetrie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
+		<Waarde>qPCR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kwantitatieve polymerase-kettingreactie</Omschrijving>
+	</Waardebepalingstechniek>
+</domeintabel>

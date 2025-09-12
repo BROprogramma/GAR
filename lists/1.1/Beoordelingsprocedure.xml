@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Beoordelingsprocedure>
+		<Waarde>handboekProvinciesRIVMv2017</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het Handboek Platform Meetnetbeheerders Monitoring Bodem- en Grondwaterkwaliteit Deel 1 - Handboek Monitoring Grondwaterkwaliteit KRW provincies en RIVM, Vastgesteld door Platform Meetnetbeheerders 06/04/2017. --Toelichting-- Bijlage 3, Validatieprotocol versie 0.3 d.d. 23-06-2016 bevat de beoordelingsprocedure.</Omschrijving>
+	</Beoordelingsprocedure>
+	<Beoordelingsprocedure>
+		<Waarde>oordeelDeskundige</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De beoordeling is gedaan door een expert, niet volgens een expliciet protocol of werkvoorschrift.</Omschrijving>
+	</Beoordelingsprocedure>
+	<Beoordelingsprocedure>
+		<Waarde>qCProtocolProvinciesEnRIVMv2021</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het kwaliteitscontrole protocol: 'Protocol voor datakwaliteitscontrole (QC) - Kwaliteitsborging grondwaterkwaliteitsdata provincies &amp; RIVM; versie 2021'.</Omschrijving>
+	</Beoordelingsprocedure>
+	<Beoordelingsprocedure>
+		<Waarde>QCProtocolProvinciesRIVMv2024</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het kwaliteitscontrole protocol: 'Protocol voor datakwaliteitscontrole (QC) - Kwaliteitsborging grondwaterkwaliteitsdata provincies &amp; RIVM; versie 2024'.</Omschrijving>
+	</Beoordelingsprocedure>
+	<Beoordelingsprocedure>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is onbekend volgens welke procedure de beoordeling is gedaan (IMBRO/A kwaliteitsregime).</Omschrijving>
+	</Beoordelingsprocedure>
+</domeintabel>
