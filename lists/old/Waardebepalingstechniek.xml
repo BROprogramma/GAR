@@ -1,0 +1,626 @@
+<?xml version="1.0"?>
+<domeintabel>
+<Waardebepalingstechniek>
+  <ID>125</ID>
+  <Code>AA</Code>
+  <Omschrijving>Autoanalyser</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>126</ID>
+  <Code>AA-FOTM</Code>
+  <Omschrijving>Autoanalyser - fotometrie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>127</ID>
+  <Code>AAS</Code>
+  <Omschrijving>Atomaire absorptie spectrometrie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>9</ID>
+  <Code>AAS-F</Code>
+  <Omschrijving>Atomaire absorptie spectrometrie - flame</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>19</ID>
+  <Code>AAS-GF</Code>
+  <Omschrijving>Atomaire absorptie spectrometrie - grafietoven</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>2</ID>
+  <Code>AAS-HG</Code>
+  <Omschrijving>Atomaire absorptie spectrometrie - hydride generatie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>27</ID>
+  <Code>AAS-KD</Code>
+  <Omschrijving>Atomaire absorptie spectrometrie - koude-damptechniek</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>132</ID>
+  <Code>AERO</Code>
+  <Omschrijving>Aerometrie</Omschrijving>
+  <D_BEGIN>2012-05-08T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>133</ID>
+  <Code>AES-F</Code>
+  <Omschrijving>Atomaire emissie spectrometrie - vlam</Omschrijving>
+  <D_BEGIN>2013-06-26T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>134</ID>
+  <Code>AES-KD</Code>
+  <Omschrijving>Atomaire emissie spectrometrie - koude-damptechniek</Omschrijving>
+  <D_BEGIN>2013-06-26T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>135</ID>
+  <Code>AF</Code>
+  <Omschrijving>Atomaire fluorescentie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>136</ID>
+  <Code>AF-KD</Code>
+  <Omschrijving>Atomaire fluorescentie - koude-damptechniek</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>137</ID>
+  <Code>BACT</Code>
+  <Omschrijving>Bacteriologie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>38</ID>
+  <Code>CALO</Code>
+  <Omschrijving>Calorimetrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>40</ID>
+  <Code>COND</Code>
+  <Omschrijving>Conductometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>5</ID>
+  <Code>COUL</Code>
+  <Omschrijving>Coulometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>141</ID>
+  <Code>CUVT</Code>
+  <Omschrijving>Cuvettentest</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>142</ID>
+  <Code>DA</Code>
+  <Omschrijving>Discreetanalyser</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>143</ID>
+  <Code>DA-S</Code>
+  <Omschrijving>Discreetanalyser - spectrometrie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>144</ID>
+  <Code>ELCH</Code>
+  <Omschrijving>Electrochemie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>145</ID>
+  <Code>ELMSR</Code>
+  <Omschrijving>Electromagnetische sensor</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>146</ID>
+  <Code>FL</Code>
+  <Omschrijving>Fluorescentie</Omschrijving>
+  <D_BEGIN>2013-01-22T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>10</ID>
+  <Code>FOTM</Code>
+  <Omschrijving>Fotometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>148</ID>
+  <Code>GAMMAS</Code>
+  <Omschrijving>Gammaspectrometrie</Omschrijving>
+  <D_BEGIN>2013-01-22T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>12</ID>
+  <Code>GC</Code>
+  <Omschrijving>Gaschromatografie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>13</ID>
+  <Code>GC-ECD</Code>
+  <Omschrijving>Gaschromatografie - electron capture detector</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>52</ID>
+  <Code>GC-ECD/ECD</Code>
+  <Omschrijving>Gaschromatografie - electron capture detector / el.capt.det.</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>152</ID>
+  <Code>GC-ECD/MS</Code>
+  <Omschrijving>Gaschromatografie - electron capture detector / massaspect.</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>54</ID>
+  <Code>GC-FID</Code>
+  <Omschrijving>Gaschromatografie - flame ionisation detector</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>56</ID>
+  <Code>GC-FID/ECD</Code>
+  <Omschrijving>Gaschromatografie - flame ionisation detector / el.capt.det.</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>15</ID>
+  <Code>GC-FID/IR</Code>
+  <Omschrijving>Gaschromatografie - flame ionisation detector / infrarood</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>156</ID>
+  <Code>GC-FPD</Code>
+  <Omschrijving>Gaschromatografie - flame photometric detector</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>157</ID>
+  <Code>GC-HRMS</Code>
+  <Omschrijving>Gaschromatografie - hoge resolutie massaspectrometrie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>158</ID>
+  <Code>GC-LRMS</Code>
+  <Omschrijving>Gaschromatografie - lage resolutie massaspectrometrie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>17</ID>
+  <Code>GC-MS</Code>
+  <Omschrijving>Gaschromatografie - massaspectrometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>69</ID>
+  <Code>GC-MS-HS</Code>
+  <Omschrijving>Gaschromatografie - massaspectrometrie - headspace</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>161</ID>
+  <Code>GC-MS-LV-PTV</Code>
+  <Omschrijving>Gaschromatografie - massaspectrometrie - groot volume - PTV</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>162</ID>
+  <Code>GC-MS-MS</Code>
+  <Omschrijving>Gaschromatografie - massaspectrometrie - massaspectrometrie</Omschrijving>
+  <D_BEGIN>2012-05-08T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>88</ID>
+  <Code>GC-MS-PT</Code>
+  <Omschrijving>Gaschromatografie - massaspectrometrie - purge-and-trap</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>164</ID>
+  <Code>GC-MS-PTV</Code>
+  <Omschrijving>Gaschromatografie - massaspectrometrie - PTV</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>165</ID>
+  <Code>GC-MS-TD</Code>
+  <Omschrijving>Gaschromatografie - massaspectrometrie - thermal desorption</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>18</ID>
+  <Code>GC-NPD</Code>
+  <Omschrijving>Gaschromatografie - stikstof-fosfor detector</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>206</ID>
+  <Code>GENEPSLCFRSE</Code>
+  <Omschrijving>Genexpressie - luciferase</Omschrijving>
+  <D_BEGIN>2016-02-09T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>58</ID>
+  <Code>GRAV</Code>
+  <Omschrijving>Gravimetrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>23</ID>
+  <Code>HPLC</Code>
+  <Omschrijving>Hoge druk vloeistofchromatografie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>169</ID>
+  <Code>HPLC-APCI-MS</Code>
+  <Omschrijving>Hoge druk vloeistofchromatografie - atm.press.chem.ion. - MS</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>170</ID>
+  <Code>HPLC-DAD</Code>
+  <Omschrijving>Hoge druk vloeistofchromatografie - diode array detector</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>207</ID>
+  <Code>HPLC-FL</Code>
+  <Omschrijving>Hoge druk vloeistofchromatografie - fluorescentiedetector</Omschrijving>
+  <D_BEGIN>2016-05-24T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>171</ID>
+  <Code>HPLC-MS-ESI</Code>
+  <Omschrijving>Hoge druk vloeistofchromatografie - electrospray - massasp.</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>25</ID>
+  <Code>HPLC-UV</Code>
+  <Omschrijving>Hoge druk vloeistofchromatografie - UV-detector</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>71</ID>
+  <Code>HPLC-UV-FL</Code>
+  <Omschrijving>Hoge druk vloeistofchromatografie - UV- en fluoresc.detector</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>26</ID>
+  <Code>IC</Code>
+  <Omschrijving>Ionchromatografie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>3</ID>
+  <Code>ICP-AES</Code>
+  <Omschrijving>Inductie gekoppeld plasma - atomaire emissie spectrometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>176</ID>
+  <Code>ICP-HRMS</Code>
+  <Omschrijving>Inductie gekoppeld plasma - hoge resolutie massaspect.</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>121</ID>
+  <Code>ICP-MS</Code>
+  <Omschrijving>Inductie gekoppeld plasma - massaspectrometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>178</ID>
+  <Code>IR</Code>
+  <Omschrijving>Infrarooddetectie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>51</ID>
+  <Code>IR-FT</Code>
+  <Omschrijving>Infrarood - fourier transmission</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>180</ID>
+  <Code>JODM</Code>
+  <Omschrijving>Jodometrie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>181</ID>
+  <Code>LC-FL</Code>
+  <Omschrijving>Vloeistofchromatografie - fluorescentie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>182</ID>
+  <Code>LC-GC-MS</Code>
+  <Omschrijving>Vloeistofchromatografie - gaschromatografie - massaspect.</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>34</ID>
+  <Code>LC-MS</Code>
+  <Omschrijving>Vloeistofchromatografie - massaspectrometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>184</ID>
+  <Code>LC-MS-MS</Code>
+  <Omschrijving>Vloeistofchromatografie - massaspectrometrie - massaspect.</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>185</ID>
+  <Code>LC-TQMS</Code>
+  <Omschrijving>Vloeistofchromatografie - tandem quadrupool massaspect.</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>186</ID>
+  <Code>LDO</Code>
+  <Omschrijving>Luminescentie opgelost zuurstof sensor</Omschrijving>
+  <D_BEGIN>2012-07-07T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>187</ID>
+  <Code>LSC</Code>
+  <Omschrijving>vloeistofscintillatie</Omschrijving>
+  <D_BEGIN>2013-01-22T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>188</ID>
+  <Code>MEMBF</Code>
+  <Omschrijving>Membraanfiltratie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>85</ID>
+  <Code>MICCOUL</Code>
+  <Omschrijving>Microcoulometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>87</ID>
+  <Code>MICCOUL-PT</Code>
+  <Omschrijving>Microcoulometrie - purge-and-trap</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>190</ID>
+  <Code>MICSCOP</Code>
+  <Omschrijving>Microscopie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>191</ID>
+  <Code>MICTTPT</Code>
+  <Omschrijving>Microtiter-plaat</Omschrijving>
+  <D_BEGIN>2012-07-07T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>192</ID>
+  <Code>NEFLMTE</Code>
+  <Omschrijving>Nefelometrie</Omschrijving>
+  <D_BEGIN>2012-05-08T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>193</ID>
+  <Code>ORGNLTSCH</Code>
+  <Omschrijving>Organoleptisch</Omschrijving>
+  <D_BEGIN>2012-05-08T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>31</ID>
+  <Code>POTM</Code>
+  <Omschrijving>Potentiometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>99</ID>
+  <Code>POTM_TITM</Code>
+  <Omschrijving>Potentiometrische titratie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>208</ID>
+  <Code>RADOMT-BWHH</Code>
+  <Omschrijving>Radiometrie, boven water - hand-held</Omschrijving>
+  <D_BEGIN>2016-07-09T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>210</ID>
+  <Code>RADOMT-BWHHG</Code>
+  <Omschrijving>Radiometrie, boven water - hand-held met gyroscoop</Omschrijving>
+  <D_BEGIN>2016-07-09T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>209</ID>
+  <Code>RADOMT-BWVO</Code>
+  <Omschrijving>Radiometrie, boven water - vaste opstelling</Omschrijving>
+  <D_BEGIN>2016-07-09T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>195</ID>
+  <Code>RONTGDF</Code>
+  <Omschrijving>Röntgendiffractie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>104</ID>
+  <Code>RONTGTM</Code>
+  <Omschrijving>Röntgentransmissie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>101</ID>
+  <Code>RONTGTM_GRAV</Code>
+  <Omschrijving>Röntgentransmissie en gravimetrie (met zeef)</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>197</ID>
+  <Code>SEDI</Code>
+  <Omschrijving>Sedigraaf</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>109</ID>
+  <Code>STER/POLMIC</Code>
+  <Omschrijving>Stereo- en polarisatiemicrosopie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>199</ID>
+  <Code>THERMG</Code>
+  <Omschrijving>Thermografie</Omschrijving>
+  <D_BEGIN>2011-10-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>200</ID>
+  <Code>THERMM</Code>
+  <Omschrijving>Thermometrie</Omschrijving>
+  <D_BEGIN>2014-07-05T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>110</ID>
+  <Code>TITM</Code>
+  <Omschrijving>Titrimetrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>107</ID>
+  <Code>UV/VIS</Code>
+  <Omschrijving>Spectrofotometrie</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>115</ID>
+  <Code>VISL</Code>
+  <Omschrijving>Visueel</Omschrijving>
+  <D_BEGIN>2015-11-21T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>204</ID>
+  <Code>VOL</Code>
+  <Omschrijving>Volumetrie</Omschrijving>
+  <D_BEGIN>2012-05-08T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
+  <ID>205</ID>
+  <Code>qPCR</Code>
+  <Omschrijving>Kwantitatieve polymerase-kettingreactie</Omschrijving>
+  <D_BEGIN>2013-02-12T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Waardebepalingstechniek>
+</domeintabel>

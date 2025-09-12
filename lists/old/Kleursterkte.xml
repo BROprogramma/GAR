@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<domeintabel>
+<Kleursterkte>
+  <ID>1</ID>
+  <Omschrijving>zeer licht</Omschrijving>
+  <Waarde>zeer licht</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleursterkte>
+<Kleursterkte>
+  <ID>2</ID>
+  <Omschrijving>licht</Omschrijving>
+  <Waarde>licht</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleursterkte>
+<Kleursterkte>
+  <ID>3</ID>
+  <Omschrijving>neutraal</Omschrijving>
+  <Waarde>neutraal</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleursterkte>
+<Kleursterkte>
+  <ID>4</ID>
+  <Omschrijving>donker</Omschrijving>
+  <Waarde>donker</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleursterkte>
+<Kleursterkte>
+  <ID>5</ID>
+  <Omschrijving>zeer donker</Omschrijving>
+  <Waarde>zeer donker</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleursterkte>
+</domeintabel>

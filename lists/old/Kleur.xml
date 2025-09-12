@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<domeintabel>
+<Kleur>
+  <ID>1</ID>
+  <Omschrijving>wit</Omschrijving>
+  <Waarde>wit</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>2</ID>
+  <Omschrijving>grijs</Omschrijving>
+  <Waarde>grijs</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>3</ID>
+  <Omschrijving>zwart</Omschrijving>
+  <Waarde>zwart</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>4</ID>
+  <Omschrijving>rood</Omschrijving>
+  <Waarde>rood</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>5</ID>
+  <Omschrijving>oranje</Omschrijving>
+  <Waarde>oranje</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>6</ID>
+  <Omschrijving>geel</Omschrijving>
+  <Waarde>geel</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>7</ID>
+  <Omschrijving>groen</Omschrijving>
+  <Waarde>groen</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>8</ID>
+  <Omschrijving>blauw</Omschrijving>
+  <Waarde>blauw</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>9</ID>
+  <Omschrijving>paars</Omschrijving>
+  <Waarde>paars</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>10</ID>
+  <Omschrijving>bruin</Omschrijving>
+  <Waarde>bruin</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>11</ID>
+  <Omschrijving>roestbruin</Omschrijving>
+  <Waarde>roestbruin</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>12</ID>
+  <Omschrijving>beige</Omschrijving>
+  <Waarde>beige</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>13</ID>
+  <Omschrijving>creme</Omschrijving>
+  <Waarde>creme</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+<Kleur>
+  <ID>14</ID>
+  <Omschrijving>kleurloos</Omschrijving>
+  <Waarde>kleurloos</Waarde>
+  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Kleur>
+</domeintabel>
