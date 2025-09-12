@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Pomptype>
+		<Waarde>onderwaterpomp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een apparaat dat geheel in de te verpompen vloeistof wordt ondergedompeld en waarmee vloeistoffen door een slang worden geperst. Deze pomp wordt ook wel dompelpomp genoemd.</Omschrijving>
+	</Pomptype>
+	<Pomptype>
+		<Waarde>peristaltischePomp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een apparaat waarmee door het aanleggen van onderdruk vloeistoffen door een slang worden gepompt. Deze pomp wordt ook wel slangenpomp genoemd.</Omschrijving>
+	</Pomptype>
+	<Pomptype>
+		<Waarde>vacuümpomp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een eenvoudige zuigpomp.</Omschrijving>
+	</Pomptype>
+	<Pomptype>
+		<Waarde>anders</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een ander pomptype zoals dat is beschreven in de bemonsteringsprocedure.</Omschrijving>
+	</Pomptype>
+	<Pomptype>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</Omschrijving>
+	</Pomptype>
+</domeintabel>

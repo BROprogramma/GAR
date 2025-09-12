@@ -1,38 +1,33 @@
 <?xml version="1.0"?>
 <domeintabel>
-<Kleursterkte>
-  <ID>1</ID>
-  <Omschrijving>zeer licht</Omschrijving>
-  <Waarde>zeer licht</Waarde>
-  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
-  <D_STATUS>G</D_STATUS>
-</Kleursterkte>
-<Kleursterkte>
-  <ID>2</ID>
-  <Omschrijving>licht</Omschrijving>
-  <Waarde>licht</Waarde>
-  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
-  <D_STATUS>G</D_STATUS>
-</Kleursterkte>
-<Kleursterkte>
-  <ID>3</ID>
-  <Omschrijving>neutraal</Omschrijving>
-  <Waarde>neutraal</Waarde>
-  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
-  <D_STATUS>G</D_STATUS>
-</Kleursterkte>
-<Kleursterkte>
-  <ID>4</ID>
-  <Omschrijving>donker</Omschrijving>
-  <Waarde>donker</Waarde>
-  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
-  <D_STATUS>G</D_STATUS>
-</Kleursterkte>
-<Kleursterkte>
-  <ID>5</ID>
-  <Omschrijving>zeer donker</Omschrijving>
-  <Waarde>zeer donker</Waarde>
-  <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
-  <D_STATUS>G</D_STATUS>
-</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>zeer licht</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>zeer licht</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>licht</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>licht</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>neutraal</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>neutraal</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>donker</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>donker</Omschrijving>
+	</Kleursterkte>
+	<Kleursterkte>
+	  <Waarde>zeer donker</Waarde>
+	  <IMBRO>v</IMBRO>
+	  <IMBROA>v</IMBROA>
+	  <Omschrijving>zeer donker</Omschrijving>
+	</Kleursterkte>
 </domeintabel>

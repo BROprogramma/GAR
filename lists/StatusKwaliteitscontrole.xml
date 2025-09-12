@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StatusKwaliteitscontrole>
+		<Waarde>afgekeurd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden op basis van de gehanteerde &lt;i&gt;beoordelingsprocedure.&lt;/i&gt; --Toelichting-- De beoordeling kan bij IMBRO/A gegevens tot stand gekomen zijn aan de hand van een niet volledig uitgevoerde &lt;i&gt;beoordelingsprocedure &lt;/i&gt;omdat daarvoor gegevens ontbreken, of aan de hand van een onbekende &lt;i&gt;beoordelingsprocedure.&lt;/i&gt;</Omschrijving>
+	</StatusKwaliteitscontrole>
+	<StatusKwaliteitscontrole>
+		<Waarde>goedgekeurd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen reden om aan de juistheid van dit gegeven te twijfelen op basis van de gehanteerde &lt;i&gt;beoordelingsprocedure.&lt;/i&gt; --Toelichting-- Bij IMBRO/A gegevens kan het voorkomen dat de &lt;i&gt;beoordelingsprocedure&lt;/i&gt; onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken. Desondanks is er geen reden om aan de juistheid van dit gegeven te twijfelen.</Omschrijving>
+	</StatusKwaliteitscontrole>
+	<StatusKwaliteitscontrole>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan (IMBRO/A kwaliteitsregime).</Omschrijving>
+	</StatusKwaliteitscontrole>
+	<StatusKwaliteitscontrole>
+		<Waarde>onbeslist</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden op basis van de gehanteerde &lt;i&gt;beoordelingsprocedure&lt;/i&gt;. --Toelichting-- De beoordeling kan bij IMBRO/A gegevens tot stand gekomen zijn aan de hand van een niet volledig uitgevoerde &lt;i&gt;beoordelingsprocedure &lt;/i&gt;omdat daarvoor gegevens ontbreken, of aan de hand van een onbekende &lt;i&gt;beoordelingsprocedure.&lt;/i&gt;</Omschrijving>
+	</StatusKwaliteitscontrole>
+</domeintabel>

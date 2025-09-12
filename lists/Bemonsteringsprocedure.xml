@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bemonsteringsprocedure>
+		<Waarde>NEN5744v1991</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nederlandse norm NEN 5744 Bodem - Monsterneming van grondwater ten behoeve van de bepaling van metalen, anorganische verbindingen, matig-vluchtige organische verbindingen en fysisch-chemische eigenschappen, 1991 Deze norm is ingetrokken en vervangen door NEN 5744, 2011.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>NEN5744v2011-A1v2013</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nederlandse norm NEN 5744 Bodem - Monsterneming van grondwater, maart 2011 met aanvulling april 2013.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>NEN5745v1997</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nederlandse norm NEN 5745 Bodem - Monsterneming van grondwater ten behoeve van de bepaling van vluchtige verbindingen, 1997 Deze norm is ingetrokken en vervangen door NEN 5744, 2011.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>NTA8017v2008</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nederlandse technische afspraak NTA 8017, Monsterneming van grondwater ten behoeve van de monitoring van grondwaterkwaliteit, februari 2008. Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>NTA8017v2016</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nederlandse technische afspraak NTA 8017, Monsterneming van grondwater ten behoeve van de monitoring van grondwaterkwaliteit, november 2016. Dit is een bijlage uit het Handboek Monitoring Grondwaterkwaliteit KRW provincies en RIVM.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>SIKBProtocol2002vanafV4</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Protocol 2002, Het nemen van grondwatermonsters. Versie 4 en opvolgende versies die geen relevante wijzigingen voor (de gegevens van) het grondwatersamenstellingsonderzoek bevatten. Dit protocol is onderdeel van SIKB 2000 (certificatieschema of accreditatieschema) dat van toepassing is op het nemen van grondwatermonsters bij milieuhygiënisch bodemonderzoek.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</Omschrijving>
+	</Bemonsteringsprocedure>
+</domeintabel>

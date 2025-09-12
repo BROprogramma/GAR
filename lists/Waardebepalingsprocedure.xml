@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Waardebepalingsprocedure>
+		<Waarde>AQUOKIT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Met Aquo-kit berekend oordeel of toetsresultaat</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>AUTOMATISCH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Niet genormaliseerde automatische waardebepaling</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>BLAUWAP:2012</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Blauwalgenprotocol 2012</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>CIW</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bepaling klasse (1-5) volgens CIW-methodiek</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D1485.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN EN 1485:1996-11</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D38405-26.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 38405-26:1989-04</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D38405-27.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 38405-27:1992-07</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D38406-29.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 38406-29:1999-05</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D38407-30.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 38407-30:2007-12</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D38407-42.11</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 38407-42:2011-03</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D38409-23.10</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 38409-23:2010-12</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D4030-2.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 4030-2:2008-06</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>D51577-1.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>DIN 51577-1:1982-11</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>DESK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bepaling klasse door deskundige</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>EBEO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bepaling waarde / EBEO-klasse (1-5) volgens EBEO-systematiek</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>EPA8270CD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>US EPA Method 8270D/8270C</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>GWPROTEU.13</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 EU</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>GWPROTNL.13</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 NL</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W10B:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-10B Analyse van zoöplankton voor EBeo</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W11A:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-11A Inventarisatie van vegetatie</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W12B:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-12B Analyse van macrofauna</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W13A:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-13A Bestandsopname van vis voor de KRW</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W7B:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-7B Analyse van fytoplankton in oppervlaktewater</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W8B:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-8B Analyse van sieralgen in opp.w. met een omkeermicrosc.</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W8C:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-8C Analyse van sieralgen in opp.w. met staande microsc.</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>HH-W9B:2010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>HH-9B Analyse van kiezelwieren in oppervlaktewater</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10048.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 10048:1991 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10260.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 10260:1992 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10301.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10301:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10304-1.09</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10304-1:2009 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10304-1.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10304-1:1995 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10304-2.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10304-2:1996 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10304-3.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10304-3:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10304-4.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10304-4:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10359-1.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 10359-1:1992 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10359-2.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 10359-2:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10382.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 10382:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10523.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 10523:2008 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10523.12</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10523:2012 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10523.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 10523:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10530.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 10530:1992 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10566.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 10566:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10695.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 10695:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I10704.12</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 10704:2012 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11083.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 11083:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11083.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 11083:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11369.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 11369:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11423-1.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 11423-1:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11423-2.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 11423-2:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11731-2.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 11731-2:2008 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11731.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 11731:1998 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11732.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 11732:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11885.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 11885:2007 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11885.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 11885:1998 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11905-1.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 11905-1:1998 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11923.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 11923:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I11969.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 11969:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I12010.14</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 12010:2014 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I12020.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 12020:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I12846.12</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 12846:2012 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I13358.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 13358:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I13395.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 13395:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I14402.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 14402:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I14403-2.09</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 14403-2:2009 Ontw. en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I14403-2.12</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 14403-2:2012 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I14403.02</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 14403:2002 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I14911.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 14911:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15061.01</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15061:2001 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15089.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 15089:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15586.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15586:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15587-1.02</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15587-1:2002 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15587-2.02</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15587-2:2002 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15680.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15680:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15681-1.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15681-1:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15681-2.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15681-2:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15682.01</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15682:2001 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15705.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 15705:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15913.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 15913:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I15923-1.13</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 15923-1:2013 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I16264.02</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 16264:2002 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I16264.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 16264:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I16588.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 16588:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I16590.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 16590:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17294-1.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17294-1:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17294-2.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17294-2:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17294-2.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17294-2:2016 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17353.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17353:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17380.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 17380:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17495.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17495:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17852.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 17852:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17852.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17852:2008 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17858.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 17858:2007 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I17993.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17993:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I18073.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 18073:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I18412.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 18412:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I18856.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 18856:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I18857-1.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 18857-1:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I20179.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 20179:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I22032.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 22032:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I22155.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 22155:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I22478.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 22478:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I22743.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 22743:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I23631.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 23631:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I23913.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 23913:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I25101.09</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 25101:2009 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5663.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 5663:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5664.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 5664:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5666.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 5666:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5667-1.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 5667-1:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5667-11.09</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 5667-11:2009 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5667-11.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 5667-11:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5667-2.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 5667-2:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5667-3.12</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 5667-3:2012 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5813.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 5813:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5814.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 5814:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5815-1.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 5815-1:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5815-2.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 5815-2:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I5961.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 5961:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6058.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 6058:1984 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6059.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 6059:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6060.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 6060:1989 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6332.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 6332:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6333.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 6333:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6340.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 6340:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6439.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 6439:1990 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6468.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 6468:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6595.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 6595:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6703-1.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 6703-1:1984 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6703-2.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 6703-2:1984 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6703-3.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 6703-3:1984 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6777.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 6777:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6778.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 6778:1984 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I6878.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 6878:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7027.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7027:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7027.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7027-1:2016 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7027.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 7027:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7150-1.02</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 7150-1:2002 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7393-1.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7393-1:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7393-2.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7393-2:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7393-3.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7393-3:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7875-1.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 7875-1:1996 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7875-2.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 7875-2:1984 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7887.12</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7887:2012 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7887.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7887:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7888.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 7888:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7890-3.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 7890-3:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7899-1.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7899-1:1998 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7980.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 7980:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7981-1.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 7981-1:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I7981-2.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 7981-2:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I8165-1.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 8165-1:1992 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I8165-2.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 8165-2:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I8245.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 8245:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I8288.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 8288:1986 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I8467.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 8467:1995 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9174.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9174:1998 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9297.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9297:1989 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9308-3.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 9308-3:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9377-1.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 9377-1:2000 Ontw. en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9377-2.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 9377-2:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9377-4.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 9377-4:1999 Ontw. en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9390.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9390:1990 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9562.04</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 9562:2004 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9697.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9697:1992 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9698.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9698:1989 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9963-1.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9963-1:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9963-1.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 9963-1:1996 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9963-2.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9963-2:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9963-2.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 9963-2:1996 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9964-1.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9964-1:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9964-2.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9964-2:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9964-3.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9964-3:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>I9965.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 9965:1993 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>KNMI5WIND.01</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>KNMI Handboek Waarnemingen, Hoofdstuk 5. Wind, maart 2001</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>KRW</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bepaling afgeleide waarde volgens KRW-methodiek</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>LEIDDPS:2012</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leidraad voor passive sampling 2012</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>MODEL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Waarde is bepaald/berekend volgens model</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N12260.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 12260:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N1233.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1233:1997 en,nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N12338.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 12338:1998 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N12673.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 12673:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N12880.01</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 12880:2001 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N12918.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 12918:1999 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N13506.01</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 13506:2001 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N13577.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 13577:2007 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N14207.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 14207:2003 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N14486.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 14486:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N1483.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1483:2007 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N1484.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1484:1997 en,nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N15216.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 15216:2007 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N1622.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1622:2006 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N1899-1.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1899-1:1998 en,nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N1899-2.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1899-2:1998 en,nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N3106.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 3106:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5622.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5622: 2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5623.02</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5623:2002 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5627.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5627: 2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5694+C1.11</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5694:2007+C1:2011 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5707+C1.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5707:2003+C1:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5731.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5731:1994 2e Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5734.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5734:1995 2e Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5734.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5734:1999</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5735.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5735:1994 2e Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5742.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5742:2000 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5742.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5742:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5747.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5747:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5748.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5748:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5750.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5750:1989 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5751.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5751:1989 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5753.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5753:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5754.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5754:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5757.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5757:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5758.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5758:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5759.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5759:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5761.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5761:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5762.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5762:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5763.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5763:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5764.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5764:1989 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5765.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5765:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5767.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5767:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5769.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5769:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5777.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5777:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5779.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5779:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N5897.14</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 5897:2014 Ontw. Nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6265.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6265:2007 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6274.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6274:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6401.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6401:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6402.10</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6402:2010 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6402.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6402:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6403.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6403:1998 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6407.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6407:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6408.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6408:1999 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6411.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6411:2006 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6411.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6411:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6412.79</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6412:1979 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6414.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6414:2007 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6414.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6414:2008 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6414.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6414:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6415.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6415:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6420.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6420:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6421.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6421:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6424.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6424:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6426.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6426:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6427.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6427:1999 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6429.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6429:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6430.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6430:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6432.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6432:1993 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6433.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6433:1993 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6434.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6434:1993 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6435.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6435:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6436.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6436:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6437.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6437:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6441.79</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6441:1979 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6442.79</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6442:1979 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6443.77</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6443:1977 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6444.77</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6444:1977 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6445.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6445:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6448.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6448:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6449.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6449:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6451.80</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6451:1980 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6452.80</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6452:1980 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6453.80</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6453:1980 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6454.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6454:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6455.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6455:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6456.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6456:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6457.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6457:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6458.83</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6458:1983 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6460.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6460:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6461.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6443:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6462.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6462:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6463.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6463:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6465.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6465:1992 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6467.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6467:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6468.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6468:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6470.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6470:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6471.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6471:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6472.83</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6472:1983 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6476.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6476:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6480.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6480:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6481.83</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6481:1983 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6482.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6482:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6483.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6483:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6484.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6484:2006 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6484.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6484:2007 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6484.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6484:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6485.83</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6485:1983 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6486.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6486:1984 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6487.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6487:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6490.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6490:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6493.87</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6493:1987 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6494.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6494:1984 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6495.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6495:1984 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6499.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6499:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6499.10</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6499:2010 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6520.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6520:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6521.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6521:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6523.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6523:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6524.84</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6524:1984 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6526.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6526:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6527.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6527:2000 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6530.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6530:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6531.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6531:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6532.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6532:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6533.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6533:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6535.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6535:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6536.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6536:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6539.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6539:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6541.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6541:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6542.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6542:1996 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6544.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6544:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6545.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6545:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6547.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6547:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6548.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6548:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6549.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6549:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6563.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6563:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6567.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6567:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6576.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6576:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6577.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6577:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6578.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6578:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6579.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6579:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6580.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6580:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6581.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6581:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6582.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6582:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6587.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6587:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6589.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6589:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6591.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6591:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6594.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6594:1993 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6604.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6604:2007 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6606.07</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6606:2007 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6606.09</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6606:2009 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6606.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6606:1992 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6608.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6608:1996 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6609.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6609:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6611.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6611:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6612.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6612:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6619.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6619:1992 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6620.86</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6620:1986 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6621.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6621:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6623.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6623:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6633.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6633:2006/A1:2007 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6633.98</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6633:1998 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6634.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6634:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6641.83</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6641:1983 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6642.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6642:1992 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6643.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6643:2003 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6644.83</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6644:1983 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6645.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6645:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6646+C1.15</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6646+C1:2015 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6646.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6646:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6646.15</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6646:2015 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6651.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6651:1992 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6652.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6652:1992 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6653.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6653:1992 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6654.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6654:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6655.92</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6655:1992 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6655.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6655:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6662.85</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6662:1985 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6663.87</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6663:1987 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6669.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6669:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6670.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6670:2003 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6671.13</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6671:2013 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6671.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6671:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6672.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6672:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6674.81</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6674:1981 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6675.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6675:1989 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6676.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6676:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6953.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6953:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6953.17</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6953:2017 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6961.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6961:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6961.13</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6961:2013 Ontw. Nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6963.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6963:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6964+C1.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6964:2005+C1:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6964.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6964:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6965+C1.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6965:2005+C1:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6965.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6965:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6966+C1.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6966:2005+C1:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6966.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6966:2005 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6970.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6970:2008 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6975.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6975:2008 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6978.08</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6978:2008 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N6980+C1.10</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 6980:2008+C1:2010 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N7341.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 7341:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N7343.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 7343:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N7345.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 7345:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N7349.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 7349:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N872.05</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 872:2005 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>N903.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 903:1994 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>Notove</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bepaling toetsoordeel (+ of -) met/volgens Notove-methodiek</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM2IB1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 2/I/B.1</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM2IC2.3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 2/I/C.2.3</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM2IIA3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 2/II/A.3</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM2IIA6</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 2/II/A.6</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM3B</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 3/B</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM3I</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 3/I</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM3N</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 3/N</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>OVAM3R1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>OVAM afvalstoffencompendium 3/R1</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3210-1.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3210-1, 23-06-2016 (droge stof)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3210-2.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3210-2, 23-06-2016 (organische stof)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3210-3.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3210-3, 23-06-2016 (korrelgroottefractie)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3210-4.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3210-4, 23-06-2016 (metalen)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3210-5.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3210-5, 23-06-2016 (PAK)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3210-6.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3210-6, 23-06-2016 (minerale olie)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3210-7.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3210-7, 23-06-2016 (PCB)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3220-1.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3220-1, 23-06-2016 (OCB)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3220-2.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3220-2, 23-06-2016 (OCB overig)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3250-1.16</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3250-1, 23-06-2016 (metalen)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P3260-1.11</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>prestatieblad 3260-1, 10-2-2011 (pentachloorfenol)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P5637.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 5637:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P5638.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 5638:2006 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6266.14</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6266:2014 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6266.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6266:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6400.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6400:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6416.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6416:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6417.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6417:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6425.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6425:1995 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6537.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6537:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6538.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6538:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6546.88</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6546:1988 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6600.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6600:1993 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>P6616.82</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NPR 6616:1982 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>PZMJK-A</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Protocol Zwemmersjeuk 2011 - A diagnose aandoening</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>PZMJK-C</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Protocol Zwemmersjeuk 2011 - C slakken met Trichobilharzia</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>PZMJK-D</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Protocol Zwemmersjeuk 2011 - D DNA Trichobilharzia in water</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWS-RMI.10</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Standaard voor inwinning hydrol. en meteo. gegevens 2010</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.002</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.002</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.019</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.019</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.032</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.032</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.033</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.033</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.035</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.035</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.040</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.040</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.072</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.072</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.085</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.085</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A1.086</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A1.086</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A3.010</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A3.010</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A4.411</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A4.411</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A5.380</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A5.380</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A5.390</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A5.390</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A5.393</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A5.393</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A5.398</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A5.398</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-A5.427</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWS Analysevoorschrift-A5.427</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-W006</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWSV 913.00.W006</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-W007</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWSV 913.00.W007</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-W008</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWSV 913.00.W008</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-W009</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWSV 913.00.W009</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>RWSV-W012</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>RWSV 913.00.W012</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>T11370.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO/TS 11370:2000 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>T11905-2.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO/TR 11905-2:1997 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>T8200.02</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NTA 8200:2002 en</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>T8204.03</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NTA 8204:2003 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>Towabo</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bepaling waterbodemklasse volgens Towabo-methodiek</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V2946.89</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 2946:1989 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V5694.96</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 5694:1996 nl (vervallen)</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V5718.94</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 5718:1994 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V5730.91</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 5730:1991 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V5732.99</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 5732:1999 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V5770.93</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 5770:1993 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6404.00</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6404:2000 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6409.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6409:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6419.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6419:2006 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6590.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6590:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6592.90</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6592:1990 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6678.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6678:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6982.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6982:2006 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6983.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6983:2006 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V6984.06</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 6984:2006 Ontw. nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V7321.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 7321:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V7322.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 7322:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V7324.97</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 7324:1997 nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>V7350.95</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NVN 7350:1995 Ontw. Nl</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>VOORLOPIG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voorlopige bepaling klasse door deskundige</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>ZINTUIGLIJK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Niet genormaliseerde zintuiglijke waardebepaling</Omschrijving>
+	</Waardebepalingsprocedure>
+	<Waardebepalingsprocedure>
+		<Waarde>iWSR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bepaling waarde / waterindex (0-100) volgens iWSR-methodiek</Omschrijving>
+	</Waardebepalingsprocedure>
+</domeintabel>
