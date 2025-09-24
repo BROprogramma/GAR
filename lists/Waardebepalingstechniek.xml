@@ -421,6 +421,12 @@
 		<Omschrijving>Microtiter-plaat</Omschrijving>
 	</Waardebepalingstechniek>
 	<Waardebepalingstechniek>
+		<Waarde>NDIR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Niet-dispersieve infrarooddetectie</Omschrijving>
+	</Waardebepalingstechniek>
+	<Waardebepalingstechniek>
 		<Waarde>NEFLMTE</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
