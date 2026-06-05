@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.8.0">
+<meta name="generator" content="ReSpec 37.0.0">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
@@ -16,6 +16,7 @@ dfn{cursor:pointer}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
 .dfn-panel .marker.dfn-exported{background:#d1edfd;box-shadow:0 0 0 .125em #1ca5f940}
 .dfn-panel .marker.idl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
+.dfn-panel .marker.cddl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
 .dfn-panel a:not(:hover){text-decoration:none!important;border-bottom:none!important}
 .dfn-panel a[href]:hover{border-bottom-width:1px}
 .dfn-panel ul{padding:0}
@@ -55,13 +56,17 @@ a.bibref{text-decoration:none}
 .respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
+@media (prefers-color-scheme:dark){
+#references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
+}
+body:has(input[name=color-scheme][value=dark]:checked) #references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
 cite .bibref{font-style:italic}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
 #issue-summary>ul{column-count:2}
-#issue-summary li{list-style:none;display:inline-block}
+#issue-summary li{list-style:none}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
 details.respec-tests-details>*{padding-right:2em}
 details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}
@@ -70,7 +75,8 @@ details.respec-tests-details>ul{width:100%;margin-top:-.3em}
 details.respec-tests-details>li{padding-left:1em}
 .self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
 aside.example .marker>a.self-link{color:inherit}
-.header-wrapper{display:flex;align-items:baseline;position:relative;left:-.5em}
+.header-wrapper{display:flex;align-items:baseline}
+:is(h2,h3,h4,h5,h6):not(#toc>h2,#abstract>h2,#sotd>h2,.head>h2):has(+a.self-link){position:relative;left:-.5em}
 :is(h2,h3,h4,h5,h6):not(#toch2)+a.self-link{color:inherit;order:-1;position:relative;left:-.7em;font-size:1rem;opacity:.5}
 :is(h2,h3,h4,h5,h6)+a.self-link::before{content:"§";text-decoration:none;color:var(--heading-text)}
 :is(h2,h3)+a.self-link{top:-.2em}
@@ -81,6 +87,8 @@ dd{margin-left:0}
 @media print{
 .removeOnSave{display:none}
 }
+body:has(input[name=color-scheme][value=light]:checked),head:not(:has(meta[name=color-scheme][content~=dark]))+body{color-scheme:light}
+body:has(input[name=color-scheme][value=dark]:checked){color-scheme:dark}
 </style>
 <style id="respec-nlgov">
 img.license{float:left;padding-right:5px;background:0 0}
@@ -340,14 +348,14 @@ img.license{float:left;padding-right:5px;background:0 0}
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/base.css"></head>
 
-<body class="h-entry informative toc-inline"><div class="head">
+<body class="h-entry informative"><div class="head">
     <a class="logo" href="https://www.geobasisregistraties.nl/basisregistraties/ondergrond"><img alt="Ministerie van Volkshuisvesting en Ruimtelijke Ordering" height="163" id="logo_minbzk" src="https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png" width="776">
   </a> <h1 id="title" class="title">Catalogus registratie ondergrond Grondwatersamenstellingsonderzoek</h1>
     
     <h2>
       BRO Standaard<br>
       Werkversie
-      <time class="dt-published" datetime="2026-05-01">29 mei 2026</time>
+      <time class="dt-published" datetime="2026-05-01">05 juni 2026</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
@@ -408,17 +416,12 @@ img.license{float:left;padding-right:5px;background:0 0}
 <p><a href="#toelichting-eenheden-hoedanigheden">Bijlage A</a> geeft  de betekenis van de eenheden zoals ze voorkomen in de parameterlijst weer.</p>
 </section>
 		<section id="doel-en-doelgroep"><div class="header-wrapper"><h3 id="x1-2-doel-en-doelgroep"><bdi class="secno">1.2 </bdi>Doel en doelgroep</h3><a class="self-link" href="#doel-en-doelgroep" aria-label="Permalink for Section 1.2"></a></div>
-In de basisregistratie ondergrond (BRO) wordt een aantal typen gegevens geregistreerd, de registratieobjecten.
-
-<p>Een catalogus is de gegevensdefinitie van een registratieobject en beschrijft welke gegevens van dit registratieobject in de registratie ondergrond zijn opgeslagen. Het document is bedoeld voor alle gebruikers van de registratie ondergrond en maakt duidelijk welke gegevens er precies in de registratie ondergrond zijn opgenomen. Aan aanleverende partijen geeft het inzicht in welke gegevens in de registratie ondergrond moeten worden opgenomen en aan welke eisen die moeten voldoen. Aan afnemende partijen geeft het inzicht in welke gegevens zij in de registratie ondergrond mogen verwachten. Het document is voor een breed publiek bedoeld en de informatie moet naast precies ook begrijpelijk zijn.</p>
+In de basisregistratie ondergrond (BRO) wordt een aantal typen gegevens geregistreerd, de registratieobjecten.<p>Een catalogus is de gegevensdefinitie van een registratieobject en beschrijft welke gegevens van dit registratieobject in de registratie ondergrond zijn opgeslagen. Het document is bedoeld voor alle gebruikers van de registratie ondergrond en maakt duidelijk welke gegevens er precies in de registratie ondergrond zijn opgenomen. Aan aanleverende partijen geeft het inzicht in welke gegevens in de registratie ondergrond moeten worden opgenomen en aan welke eisen die moeten voldoen. Aan afnemende partijen geeft het inzicht in welke gegevens zij in de registratie ondergrond mogen verwachten. Het document is voor een breed publiek bedoeld en de informatie moet naast precies ook begrijpelijk zijn.</p>
 </section>
-		
 		<section id="totstandkoming"><div class="header-wrapper"><h3 id="x1-3-totstandkoming"><bdi class="secno">1.3 </bdi>Totstandkoming</h3><a class="self-link" href="#totstandkoming" aria-label="Permalink for Section 1.3"></a></div>
 Een catalogus is het resultaat van een proces van standaardisatie dat geruime tijd in beslag kan nemen. Het standaardisatieproces is een open proces waarin de belanghebbende partijen actief betrokken worden. Het eindresultaat wordt vastgesteld als bijlage van de Regeling Bro.</section>
 		<section id="beheer"><div class="header-wrapper"><h3 id="x1-4-beheer"><bdi class="secno">1.4 </bdi>Beheer</h3><a class="self-link" href="#beheer" aria-label="Permalink for Section 1.4"></a></div>
-De eerste wettelijk vastgestelde catalogus (zoals bekendgemaakt in de Regeling Bro) krijgt het versienummer 1.0. Verwacht mag worden dat er na enige tijd behoefte ontstaat aan gegevens die nog niet in de catalogus zijn opgenomen.
-
-<p>De beheerder hanteert drie typen versies voor een wijziging van een catalogus. Bijvoorbeeld: versie 2.1.0 (=X.Y.Z):</p>
+De eerste wettelijk vastgestelde catalogus (zoals bekendgemaakt in de Regeling Bro) krijgt het versienummer 1.0. Verwacht mag worden dat er na enige tijd behoefte ontstaat aan gegevens die nog niet in de catalogus zijn opgenomen.<p>De beheerder hanteert drie typen versies voor een wijziging van een catalogus. Bijvoorbeeld: versie 2.1.0 (=X.Y.Z):</p>
 <p>X-wijzigingen
 Deze wijzigingen veranderen de structuur van de catalogus, en/of de namen van bestaande attributen of codelijsten (ook in de berichtencatalogi inname- en uitgiftewebservice) en/of de domeinwaarden. Hierdoor zijn X-wijzigingen niet backwards compatible.
 Frequentie: maximaal 1 keer per 2 jaar.</p>
@@ -432,20 +435,15 @@ Frequentie: maximaal 1 keer per jaar.</p>
 	</section>
 
 	
-	<section id="algemene-kenmerken-en-begrippen"><div class="header-wrapper"><h2 id="x2-algemene-kenmerken-en-begrippen"><bdi class="secno">2. </bdi>Algemene kenmerken en begrippen</h2><a class="self-link" href="#algemene-kenmerken-en-begrippen" aria-label="Permalink for Section 2."></a></div>
-
-<section id="opzet-van-de-landelijke-voorziening"><div class="header-wrapper"><h3 id="x2-1-opzet-van-de-landelijke-voorziening"><bdi class="secno">2.1 </bdi>Opzet van de landelijke voorziening</h3><a class="self-link" href="#opzet-van-de-landelijke-voorziening" aria-label="Permalink for Section 2.1"></a></div>
+	<section id="algemene-kenmerken-en-begrippen"><div class="header-wrapper"><h2 id="x2-algemene-kenmerken-en-begrippen"><bdi class="secno">2. </bdi>Algemene kenmerken en begrippen</h2><a class="self-link" href="#algemene-kenmerken-en-begrippen" aria-label="Permalink for Section 2."></a></div><section id="opzet-van-de-landelijke-voorziening"><div class="header-wrapper"><h3 id="x2-1-opzet-van-de-landelijke-voorziening"><bdi class="secno">2.1 </bdi>Opzet van de landelijke voorziening</h3><a class="self-link" href="#opzet-van-de-landelijke-voorziening" aria-label="Permalink for Section 2.1"></a></div>
 <p>De landelijke voorziening van de basisregistratie ondergrond (BRO) is een systeem dat een schakel vormt in een informatieketen. Aan het begin van de keten staan meestal bronhouders die gegevens genereren of ontvangen (artikel 9 van de Wet Bro). Deze gegevens levert de bronhouder of, namens hem, een dataleverancier, aan de beheerder van de landelijke voorziening van de BRO, de registerbeheerder. De bronhouder is verantwoordelijk voor de levering en de kwaliteit van gegevens. De registerbeheerder registreert de geleverde gegevens en levert deze voor (her)gebruik door aan allerlei afnemers, bijvoorbeeld aan een bronhouder vanuit haar rol als bevoegd gezag. </p>
 <p>De opzet van de BRO moet begrepen worden vanuit de verantwoordelijkheden die in de keten zijn belegd. De geleverde gegevens vallen onder de verantwoordelijkheid van de bronhouder en de registerbeheerder mag die gegevens niet veranderen. De registerbeheerder moet echter wel gegevens toevoegen om de BRO te kunnen beheren en hij kan gegevens toevoegen om de afnemers goed van dienst te kunnen zijn.</p>
 <p>Bij wet is geregeld dat de BRO zo wordt opgezet dat er onderscheid bestaat tussen de gegevens die aan de registerbeheerder zijn aangeleverd en de gegevens die de registerbeheerder aan de afnemers verstrekt. De BRO valt uiteen in twee grote deelsystemen, het register brondocumenten ondergrond en de registratie ondergrond (Figuur 1).</p>
 <p>Een geheel van gegevens dat een bronhouder levert, wordt een ‘brondocument’ genoemd. De brondocumenten worden in het register brondocumenten ondergrond opgeslagen. De gegevens uit de brondocumenten worden samen met de gegevens die de registerbeheerder toevoegt, in de registratie ondergrond vastgelegd. De registratie ondergrond is het deelsysteem dat gebruikt wordt voor uitgifte.</p>
 <figure id="fig-de-twee-grote-deelsystemen-van-de-landelijke-voorziening-van-de-bro">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/image002.png" width="350">
-    <figcaption><a class="self-link" href="#fig-de-twee-grote-deelsystemen-van-de-landelijke-voorziening-van-de-bro">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">De twee grote deelsystemen van de landelijke voorziening van de BRO.</span></figcaption>
-</figure><br><br>
-
-
-<p>Met deze opzet verkrijgt de BRO de nodige flexibiliteit. Zo kan een object in de registratie ondergrond gegevens bevatten die uit meer dan één brondocument afkomstig zijn en bij uitgifte kunnen gegevens van verschillende objecten met elkaar gecombineerd worden. Ook is het mogelijk met het brondocument gegevens op te slaan die alleen voor de bronhouder en de dataleverancier van belang zijn.</p>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/image002.png" width="350">
+	<figcaption><a class="self-link" href="#fig-de-twee-grote-deelsystemen-van-de-landelijke-voorziening-van-de-bro">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">De twee grote deelsystemen van de landelijke voorziening van de BRO.</span></figcaption>
+</figure><br><br><p>Met deze opzet verkrijgt de BRO de nodige flexibiliteit. Zo kan een object in de registratie ondergrond gegevens bevatten die uit meer dan één brondocument afkomstig zijn en bij uitgifte kunnen gegevens van verschillende objecten met elkaar gecombineerd worden. Ook is het mogelijk met het brondocument gegevens op te slaan die alleen voor de bronhouder en de dataleverancier van belang zijn.</p>
 <p>De catalogus dekt alle gegevens die opgenomen zijn in de registratie ondergrond. Verreweg de meeste gegevens komen uit de brondocumenten die de dataleverancier levert. Verder komen nog enkele gegevens voort uit de overdracht van een brondocument aan de registerbeheerder. Aan de geleverde gegevens voegt de registerbeheerder enkele gegevens toe. Als de registerbeheerder een gegeven heeft toegevoegd wordt dat in de beschrijving expliciet vermeld.</p>
 <p>Alle gegevens in de registratie ondergrond worden uitgegeven, maar niet alle afnemers krijgen alle gegevens geleverd. De gegevens die niet aan alle afnemers worden uitgeleverd zijn de gegevens die alleen nodig zijn in de communicatie tussen de registerbeheerder enerzijds en de dataleveranciers en bronhouders anderzijds, of niet openbaar zijn op grond van een wettelijk voorschrift. Zo zijn persoonsgegevens over bronhouder, dataleverancier en onderzoeker/uitvoerder alleen toegankelijk voor de betreffende bronhouder en dataleverancier op grond van de Algemene verordening gegevensbescherming (AVG).</p>
 </section><section id="registratieobject"><div class="header-wrapper"><h3 id="x2-2-registratieobject"><bdi class="secno">2.2 </bdi>Registratieobject</h3><a class="self-link" href="#registratieobject" aria-label="Permalink for Section 2.2"></a></div>
@@ -477,11 +475,9 @@ Deze historische gegevens kunnen niet altijd voldoen aan de strikte regels die d
 <p>Artikel 41 van de Wet Bro geeft de bronhouder van een gegeven over een registratieobject dat valt onder de categorie verkenningen, gedurende drie jaar na inwerkingtreding van dit registratieobject, een zekere mate van vrijheid om bij levering van gegevens te kiezen voor IMBRO/A. Als een gegeven voortkomt uit een schriftelijke opdracht van voor inwerkingtreding van dit registratieobject, kan het praktisch blijken het IMBRO/A-regime te hanteren voor gegevens die pas na deze datum zijn geproduceerd. De periode waarin de bronhouders die vrijheid hebben wordt de ‘transitieperiode’ genoemd. Na afloop van de transitieperiode kunnen alleen gegevens onder het strikte IMBRO-regime worden geleverd.</p>
 <p>In schema (artikelen verwijzen naar de wet Bro):</p>
 <figure id="fig-overzicht-verschillen-tussen-de-kwaliteitsregimes">
-    <img src="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/media/tabel_kwaliteitsregime.png" width="350">
-    <figcaption><a class="self-link" href="#fig-overzicht-verschillen-tussen-de-kwaliteitsregimes">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Overzicht verschillen tussen de kwaliteitsregimes.</span></figcaption>
-</figure><br><br>
-
-<p>Voor een nadere toelichting van het kwaliteitsregime met een beschrijving van verschillende scenario's voor het corrigeren van het kwaliteitsregime van geleverde gegevens, wordt verwezen naar de <a href="https://www.bro-productomgeving.nl/bpo/latest/informatie-voor-bro-gebruikers/handreiking-aanleveren-bro-gegevens">Handreiking aanleveren BRO-gegevens</a> op de BRO-Productomgeving.</p>
+	<img src="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/media/tabel_kwaliteitsregime.png" width="350">
+	<figcaption><a class="self-link" href="#fig-overzicht-verschillen-tussen-de-kwaliteitsregimes">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Overzicht verschillen tussen de kwaliteitsregimes.</span></figcaption>
+</figure><br><br><p>Voor een nadere toelichting van het kwaliteitsregime met een beschrijving van verschillende scenario's voor het corrigeren van het kwaliteitsregime van geleverde gegevens, wordt verwezen naar de <a href="https://www.bro-productomgeving.nl/bpo/latest/handreiking-aanleveren-bro-gegevens">Handreiking aanleveren BRO-gegevens</a> op de BRO-Productomgeving.</p>
 </section><section id="formele-en-materiele-geschiedenis"><div class="header-wrapper"><h3 id="x2-5-formele-en-materiele-geschiedenis"><bdi class="secno">2.5 </bdi>Formele en materiële geschiedenis</h3><a class="self-link" href="#formele-en-materiele-geschiedenis" aria-label="Permalink for Section 2.5"></a></div>
 <p>De BRO maakt deel uit van een stelsel van basisregistraties. Binnen het stelsel maakt men onderscheid tussen de materiële geschiedenis en de formele geschiedenis van een object.</p>
 <p>Het begrip materiële geschiedenis wordt gebruikt om de veranderingen van eigenschappen van een object in de werkelijkheid aan te duiden (dus niet attributen in een systeem). De materiële geschiedenis van een object wordt, voor zover relevant, in de BRO vastgelegd. Niet alle registratieobjecten hebben een materiële geschiedenis, alleen de registratieobjecten met een levensduur, zoals de grondwatermonitoringput.</p>
@@ -711,9 +707,7 @@ Deze historische gegevens kunnen niet altijd voldoen aan de strikte regels die d
 	</section>
 
 	
-	<section id="h4-gegevensdefinitie"><div class="header-wrapper"><h2 id="x4-opbouw-van-de-gegevensdefinitie"><bdi class="secno">4. </bdi>Opbouw van de gegevensdefinitie</h2><a class="self-link" href="#h4-gegevensdefinitie" aria-label="Permalink for Section 4."></a></div>
-
-<section id="de-gegevensdefinitie"><div class="header-wrapper"><h3 id="x4-1-de-gegevensdefinitie"><bdi class="secno">4.1 </bdi>De gegevensdefinitie</h3><a class="self-link" href="#de-gegevensdefinitie" aria-label="Permalink for Section 4.1"></a></div>
+	<section id="h4-gegevensdefinitie"><div class="header-wrapper"><h2 id="x4-opbouw-van-de-gegevensdefinitie"><bdi class="secno">4. </bdi>Opbouw van de gegevensdefinitie</h2><a class="self-link" href="#h4-gegevensdefinitie" aria-label="Permalink for Section 4."></a></div><section id="de-gegevensdefinitie"><div class="header-wrapper"><h3 id="x4-1-de-gegevensdefinitie"><bdi class="secno">4.1 </bdi>De gegevensdefinitie</h3><a class="self-link" href="#de-gegevensdefinitie" aria-label="Permalink for Section 4.1"></a></div>
 <p>De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving van alle gegevens van het registratieobject. Eerst wordt de definitie van het registratieobject gegeven inclusief de plaatjes van het zgn. domeinmodel, en vervolgens de definities van de entiteiten waaruit het registratieobject is opgebouwd met de eigenschappen van die entiteiten, de attributen. De entiteiten worden op volgorde van de nummers in het domeinmodel behandeld. De volgende aspecten van de gegevens worden vastgelegd.</p>
 <ul>
 <li><p>De Nederlandse naam van het gegeven.</p>
@@ -800,7 +794,7 @@ Bij het domein 'Datum' is het voldoende de naam te geven, omdat de opbouw altijd
 </section><section id="datumtijd"><div class="header-wrapper"><h5 id="x4-2-6-2-datumtijd"><bdi class="secno">4.2.6.2 </bdi>DatumTijd</h5><a class="self-link" href="#datumtijd" aria-label="Permalink for Section 4.2.6.2"></a></div>
 <p>Het domein 'DatumTijd' wordt gebruikt om een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig aan te geven. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM.
 Bij het domein 'DatumTijd' is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p>
-<p>De registratie ondergrond volgt de ISO8601 standaard en rekent de geleverde DatumTijd waarde om tot een Nederlandse DatumTijd waarde voordat er wordt getoetst op eventuele regels. Het is dus belangrijk dat de juiste tijdzone wordt opgevoerd om tijdstippen correct leesbaar te houden. Voor de lezer is dit de lokale tijd. Daarnaast is het belangrijk dat de zomer- en wintertijd correct worden toegepast. Geadviseerd wordt om voor de tijdzone de in Nederland geldige waarden +01:00 en +02:00 te gebruiken: dit ondersteunt de leesbaarheid van de XML door mensen. Zie voor een uitgebreidere toelichting het document <em><a href="https://www.bro-productomgeving.nl/bpo/latest/informatie-voor-softwareleveranciers/het-afhandelen-van-tijdstippen">Het afhandelen van tijdstippen</a></em> op de BRO productomgeving.</p>
+<p>De registratie ondergrond volgt de ISO8601 standaard en rekent de geleverde DatumTijd waarde om tot een Nederlandse DatumTijd waarde voordat er wordt getoetst op eventuele regels. Het is dus belangrijk dat de juiste tijdzone wordt opgevoerd om tijdstippen correct leesbaar te houden. Voor de lezer is dit de lokale tijd. Daarnaast is het belangrijk dat de zomer- en wintertijd correct worden toegepast. Geadviseerd wordt om voor de tijdzone de in Nederland geldige waarden +01:00 en +02:00 te gebruiken: dit ondersteunt de leesbaarheid van de XML door mensen. Zie voor een uitgebreidere toelichting het document <em><a href="https://www.bro-productomgeving.nl/bpo/latest/het-afhandelen-van-tijdstippen">Het afhandelen van tijdstippen</a></em> op de BRO productomgeving.</p>
 </section><section id="onvolledigedatum"><div class="header-wrapper"><h5 id="x4-2-6-3-onvolledigedatum"><bdi class="secno">4.2.6.3 </bdi>OnvolledigeDatum</h5><a class="self-link" href="#onvolledigedatum" aria-label="Permalink for Section 4.2.6.3"></a></div>
 <p>Voor gegevens die onder het kwaliteitsregime IMBRO/A aangeleverd worden, geldt een derde domein met vier keuzemogelijkheden.</p>
 <ul>
@@ -874,53 +868,39 @@ In de registratie ondergrond zijn de geometrieën conform het GML Simple Feature
 <section id="punt"><div class="header-wrapper"><h5 id="x4-2-8-1-punt"><bdi class="secno">4.2.8.1 </bdi>Punt</h5><a class="self-link" href="#punt" aria-label="Permalink for Section 4.2.8.1"></a></div>
 <p>Het domein 'Punt' wordt gebruikt om de positie van een object vast te leggen. De positie wordt bepaald in een tweedimensionaal vlak, een specifiek referentiestelsel en uitgedrukt in coördinaten. In sommige gevallen wordt daarnaast de hoogte (derde dimensie) van het Punt vastgelegd.</p>
 <figure id="fig-een-punt-geometrie-iso-19107-2003-spatial-schema">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/punt.png" alt="Punt" width="150">
-    <figcaption><a class="self-link" href="#fig-een-punt-geometrie-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title">Een punt geometrie (ISO 19107:2003 Spatial Schema).</span></figcaption>
-</figure><br><br>
-
-</section><section id="lijn"><div class="header-wrapper"><h5 id="x4-2-8-2-lijn"><bdi class="secno">4.2.8.2 </bdi>Lijn</h5><a class="self-link" href="#lijn" aria-label="Permalink for Section 4.2.8.2"></a></div>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/punt.png" alt="Punt" width="150">
+	<figcaption><a class="self-link" href="#fig-een-punt-geometrie-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title">Een punt geometrie (ISO 19107:2003 Spatial Schema).</span></figcaption>
+</figure><br><br></section><section id="lijn"><div class="header-wrapper"><h5 id="x4-2-8-2-lijn"><bdi class="secno">4.2.8.2 </bdi>Lijn</h5><a class="self-link" href="#lijn" aria-label="Permalink for Section 4.2.8.2"></a></div>
 <p>Het domein 'Lijn' wordt gebruikt om de vorm, afmetingen en positie van een object in een lijn uit te drukken. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in één of meerdere lijnsegmenten. Een lijnsegment is de verbinding tussen twee punten. Lijnsegmenten zijn aan elkaar verbonden doordat het eindpunt van een segment is verbonden aan het beginpunt van een volgend lijnsegment. Een Lijn kan in een tweedimensionaal vlak (x- en y-coördinaat of in een driedimensionale ruimte (x-, y- en z-coördinaat) worden vastgelegd.</p>
 <figure id="fig-een-lijn-geometrie-iso-19107-2003-spatial-schema">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/lijn.png" alt="Lijn" width="150">
-    <figcaption><a class="self-link" href="#fig-een-lijn-geometrie-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title">Een lijn geometrie (ISO 19107:2003 Spatial Schema).</span></figcaption>
-</figure><br><br>
-
-</section><section id="multilijn"><div class="header-wrapper"><h5 id="x4-2-8-3-multilijn"><bdi class="secno">4.2.8.3 </bdi>Multilijn</h5><a class="self-link" href="#multilijn" aria-label="Permalink for Section 4.2.8.3"></a></div>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/lijn.png" alt="Lijn" width="150">
+	<figcaption><a class="self-link" href="#fig-een-lijn-geometrie-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title">Een lijn geometrie (ISO 19107:2003 Spatial Schema).</span></figcaption>
+</figure><br><br></section><section id="multilijn"><div class="header-wrapper"><h5 id="x4-2-8-3-multilijn"><bdi class="secno">4.2.8.3 </bdi>Multilijn</h5><a class="self-link" href="#multilijn" aria-label="Permalink for Section 4.2.8.3"></a></div>
 <p>Het domein 'Multilijn' bestaat uit een verzameling van lijnen die gezamenlijk één object vormen en wordt gebruikt om de vorm, afmetingen en positie van een object in meerdere lijnen uit te drukken. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in meer lijnen met één of meerdere lijnsegmenten. Tussen de lijnen die samen een Multilijn vormen mag geen intersectie plaatsvinden tenzij dit gebeurt in de eindpunten van de lijnen (er mag geen kruising van lijnen plaatsvinden, wel vertakkingen). Een Multilijn kan in een tweedimensionaal vlak (x- en y-coördinaat) of in een driedimensionale ruimte (x-, y- en z-coördinaat) worden vastgelegd.</p>
 <figure id="fig-een-multilijn-geometrie">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/multilijn.png" alt="Multilijn" width="150">
-    <figcaption><a class="self-link" href="#fig-een-multilijn-geometrie">Figuur <bdi class="figno">7</bdi></a> <span class="fig-title">Een multilijn geometrie</span></figcaption>
-</figure><br><br>
-
-</section><section id="vlak"><div class="header-wrapper"><h5 id="x4-2-8-4-vlak"><bdi class="secno">4.2.8.4 </bdi>Vlak</h5><a class="self-link" href="#vlak" aria-label="Permalink for Section 4.2.8.4"></a></div>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/multilijn.png" alt="Multilijn" width="150">
+	<figcaption><a class="self-link" href="#fig-een-multilijn-geometrie">Figuur <bdi class="figno">7</bdi></a> <span class="fig-title">Een multilijn geometrie</span></figcaption>
+</figure><br><br></section><section id="vlak"><div class="header-wrapper"><h5 id="x4-2-8-4-vlak"><bdi class="secno">4.2.8.4 </bdi>Vlak</h5><a class="self-link" href="#vlak" aria-label="Permalink for Section 4.2.8.4"></a></div>
 <p>Het domein 'Vlak' wordt binnen de geometrie gebruikt voor de representatie van de vorm, afmetingen en positie van een object als een vlak. De positie wordt bepaald in een specifiek referentiestelsel. Een vlak heeft altijd een buitengrens, daarnaast kan een vlak ook nog een of meer interne begrenzingen hebben. Een Vlak kan in een tweedimensionaal vlak (x- en y-coördinaat) of in een driedimensionale ruimte (x-, y- en z-coördinaat) worden vastgelegd.</p>
 <figure id="fig-een-vlak-is-een-geometrie-dat-een-beeld-van-een-continue-regio-of-vlak-vertegenwoordigd-iso-19107-2003-spatial-schema">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/vlak.png" alt="Vlak" width="150">
-    <figcaption><a class="self-link" href="#fig-een-vlak-is-een-geometrie-dat-een-beeld-van-een-continue-regio-of-vlak-vertegenwoordigd-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">8</bdi></a> <span class="fig-title">Een vlak is een geometrie dat een beeld van een continue regio of vlak vertegenwoordigd (ISO 19107:2003 Spatial Schema).</span></figcaption>
-</figure><br><br>
-
-</section><section id="multivlak"><div class="header-wrapper"><h5 id="x4-2-8-5-multivlak"><bdi class="secno">4.2.8.5 </bdi>Multivlak</h5><a class="self-link" href="#multivlak" aria-label="Permalink for Section 4.2.8.5"></a></div>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/vlak.png" alt="Vlak" width="150">
+	<figcaption><a class="self-link" href="#fig-een-vlak-is-een-geometrie-dat-een-beeld-van-een-continue-regio-of-vlak-vertegenwoordigd-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">8</bdi></a> <span class="fig-title">Een vlak is een geometrie dat een beeld van een continue regio of vlak vertegenwoordigd (ISO 19107:2003 Spatial Schema).</span></figcaption>
+</figure><br><br></section><section id="multivlak"><div class="header-wrapper"><h5 id="x4-2-8-5-multivlak"><bdi class="secno">4.2.8.5 </bdi>Multivlak</h5><a class="self-link" href="#multivlak" aria-label="Permalink for Section 4.2.8.5"></a></div>
 <p>Het domein 'Multivlak' bestaat uit een verzameling van vlakken die gezamenlijk één object vormen en wordt gebruikt om de vorm, afmetingen en positie van een object uit te drukken. De vlakken die samen een multivlak vormen mogen elkaar niet overlappen, wel mogen zij in een eindig aantal punten elkaar raken (wel punten maar geen grenzen gemeenschappelijk). De posities van de vlakken worden bepaald in een specifiek referentiestelsel. Een Multivlak kan in een tweedimensionaal vlak (x- en y-coördinaat) of in een driedimensionale ruimte (x-, y- en z-coördinaat) worden vastgelegd.</p>
 <figure id="fig-een-multivlak-geometrie">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/multivlak.png" alt="Multivlak" width="150">
-    <figcaption><a class="self-link" href="#fig-een-multivlak-geometrie">Figuur <bdi class="figno">9</bdi></a> <span class="fig-title">Een Multivlak geometrie.</span></figcaption>
-</figure><br><br>
-
-</section><section id="volume"><div class="header-wrapper"><h5 id="x4-2-8-6-volume"><bdi class="secno">4.2.8.6 </bdi>Volume</h5><a class="self-link" href="#volume" aria-label="Permalink for Section 4.2.8.6"></a></div>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/multivlak.png" alt="Multivlak" width="150">
+	<figcaption><a class="self-link" href="#fig-een-multivlak-geometrie">Figuur <bdi class="figno">9</bdi></a> <span class="fig-title">Een Multivlak geometrie.</span></figcaption>
+</figure><br><br></section><section id="volume"><div class="header-wrapper"><h5 id="x4-2-8-6-volume"><bdi class="secno">4.2.8.6 </bdi>Volume</h5><a class="self-link" href="#volume" aria-label="Permalink for Section 4.2.8.6"></a></div>
 <p>Het domein 'Volume' wordt gebruikt om de vorm, afmetingen en positie van een object uit te drukken. De geometrie van een volume is opgebouwd uit grenzen die elk een vlak zijn. Deze zijn naar buiten toe georiënteerd; de bovenkant van elk vlak is van de buitenkant van het volume object te zien. Een Volume geometrie kan in een tweedimensionaal vlak (x- en y-coördinaat of in een driedimensionale ruimte (x-, y-, en z-coördinaat)) worden vastgelegd.</p>
 <figure id="fig-een-volume-geometrie-iso-19107-2003-spatial-schema">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/volume.png" alt="Volume" width="150">
-    <figcaption><a class="self-link" href="#fig-een-volume-geometrie-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">10</bdi></a> <span class="fig-title">Een volume geometrie (ISO 19107:2003 Spatial Schema).</span></figcaption>
-</figure><br><br>
-
-</section><section id="minimum-begrenzing"><div class="header-wrapper"><h5 id="x4-2-8-7-minimum-begrenzing"><bdi class="secno">4.2.8.7 </bdi>Minimum begrenzing</h5><a class="self-link" href="#minimum-begrenzing" aria-label="Permalink for Section 4.2.8.7"></a></div>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/volume.png" alt="Volume" width="150">
+	<figcaption><a class="self-link" href="#fig-een-volume-geometrie-iso-19107-2003-spatial-schema">Figuur <bdi class="figno">10</bdi></a> <span class="fig-title">Een volume geometrie (ISO 19107:2003 Spatial Schema).</span></figcaption>
+</figure><br><br></section><section id="minimum-begrenzing"><div class="header-wrapper"><h5 id="x4-2-8-7-minimum-begrenzing"><bdi class="secno">4.2.8.7 </bdi>Minimum begrenzing</h5><a class="self-link" href="#minimum-begrenzing" aria-label="Permalink for Section 4.2.8.7"></a></div>
 <p>Het domein 'Minimum begrenzing' wordt gebruikt om de positie van één of meer geometrieobjecten te begrenzen. De geometrie van de Minimum begrenzing is opgebouwd uit twee punten, waarbij het eerste punt de hoek aan de linker onderkant van het selectiekader weergeeft en het tweede punt de hoek aan de rechter bovenkant. De positie van de punten worden bepaald in een specifiek referentiestelsel. Een Minimum begrenzing kan in een tweedimensionaal vlak (x- en y-coördinaat of in een driedimensionale ruimte (x-, y-, en z-coördinaat) worden vastgelegd.</p>
 <figure id="fig-minimum-begrenzing">
-    <img src="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/media/minimumBegrenzing3.png" alt="Minimum begrenzing" width="150">
-    <figcaption><a class="self-link" href="#fig-minimum-begrenzing">Figuur <bdi class="figno">11</bdi></a> <span class="fig-title">Minimum begrenzing.</span></figcaption>
-</figure><br><br>
-
-</section></section><section id="coordinatenpaar"><div class="header-wrapper"><h4 id="x4-2-9-coordinatenpaar"><bdi class="secno">4.2.9 </bdi>Coördinatenpaar</h4><a class="self-link" href="#coordinatenpaar" aria-label="Permalink for Section 4.2.9"></a></div>
+	<img src="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/media/minimumBegrenzing3.png" alt="Minimum begrenzing" width="150">
+	<figcaption><a class="self-link" href="#fig-minimum-begrenzing">Figuur <bdi class="figno">11</bdi></a> <span class="fig-title">Minimum begrenzing.</span></figcaption>
+</figure><br><br></section></section><section id="coordinatenpaar"><div class="header-wrapper"><h4 id="x4-2-9-coordinatenpaar"><bdi class="secno">4.2.9 </bdi>Coördinatenpaar</h4><a class="self-link" href="#coordinatenpaar" aria-label="Permalink for Section 4.2.9"></a></div>
 <p>Het domein 'Coördinatenpaar' wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een meetwaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2).In de registratie ondergrond worden drie referentiestelsels voor horizontale posities gebruikt. Het referentiestelsel bepaalt hoe de tweedimensionale ruimte wordt beschreven en daarmee wat de coördinaten voorstellen en wat de karakteristiek van de twee meetwaarden is.Voor het referentiestelsel RD zijn de coördinaten cartesisch en is de notatie (x,y). De eerste coördinaat (x) heeft betrekking op de positie op een west-oost georiënteerde as, de tweede coördinaat (y) op een zuid-noord georiënteerde as. Een positie oostelijk van de oorsprong, resp. noordelijk van de oorsprong heeft een positieve waarde. Voor WGS84 (ongeprojecteerd) en ETRS89 (ongeprojecteerd) zijn de coördinaten geografisch en is de notatie (φ,λ). De eerste coördinaat heeft betrekking op de geografische breedte, de tweede op de geografische lengte. Een positie oostelijk van de Greenwichmeridiaan, resp. noordelijk van de evenaar heeft een positieve waarde.
 Bij het domein 'Coördinatenpaar' is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</p>
 <p>Coördinatenpaar voor RD (x,y)</p>
@@ -1014,11 +994,9 @@ Een meetreeks heeft een bepaalde naam. Alleen in het domeinmodel is de meetreeks
 <p>Soms zijn een aantal attributen gegroepeerd in een groep, aangeduid als gegevensgroep. Het blijven attributen van de entiteit, maar de inhoudelijke definiëring van de gegevensgroep staat elders. Gegevensgroepen kunnen bij meerdere entiteiten terugkomen.</p>
 <p>Het domeinmodel laat daarnaast ook zien hoe entiteiten aan elkaar gerelateerd zijn. Een beschrijving van deze relatie is opgenomen bij de bron-entiteit van de relatie. Een relatie heeft altijd een richting en in de meeste gevallen loopt deze van bron naar doel. In het plaatje van een domeinmodel heeft de relatie een naam en een kardinaliteit. Om de leesbaarheid te vergroten staat de kardinaliteit bij de doelentiteit.</p>
 <figure id="fig-voorbeeld-class-model">
-    <img src="https://docs.geostandaarden.nl/bro/gen/media/domeinmodel-intro-class-model.png" alt="Voorbeeld class model">
-        <figcaption><a class="self-link" href="#fig-voorbeeld-class-model">Figuur <bdi class="figno">12</bdi></a> <span class="fig-title">Voorbeeld class model.</span></figcaption>
-</figure>
-
-<p>Bovenstaand voorbeeld is te lezen als: de entiteit Bepaling bevat één of meer metingen. Een meting bestaat uit een meetwaarde en meetconfiguratie-gegevens. De meetconfiguratie bestaat uit twee parameters.</p>
+	<img src="https://docs.geostandaarden.nl/bro/gen/media/domeinmodel-intro-class-model.png" alt="Voorbeeld class model">
+		<figcaption><a class="self-link" href="#fig-voorbeeld-class-model">Figuur <bdi class="figno">12</bdi></a> <span class="fig-title">Voorbeeld class model.</span></figcaption>
+</figure><p>Bovenstaand voorbeeld is te lezen als: de entiteit Bepaling bevat één of meer metingen. Een meting bestaat uit een meetwaarde en meetconfiguratie-gegevens. De meetconfiguratie bestaat uit twee parameters.</p>
 </section><section id="verplichte-gegevens-verplichte-waarden"><div class="header-wrapper"><h3 id="x4-5-verplichte-gegevens-verplichte-waarden"><bdi class="secno">4.5 </bdi>Verplichte gegevens, verplichte waarden</h3><a class="self-link" href="#verplichte-gegevens-verplichte-waarden" aria-label="Permalink for Section 4.5"></a></div>
 <p>De kardinaliteit en de regels bepalen samen of een gegeven al dan niet aanwezig is. Voor een goed begrip van de gegevensdefinitie is dat nog niet zorgvuldig genoeg geformuleerd. In de praktijk van gegevensuitwisseling is het namelijk mogelijk een attribuut op te nemen zonder waarde. Verbijzonderd voor attributen is de juiste formulering daarom dat de kardinaliteit en de regels samen bepalen of een attribuut al dan niet aanwezig is en of een attribuut al dan niet een waarde heeft.</p>
 <p>Uitgangspunt is dat een attribuut dat aanwezig is een waarde heeft. Een attribuut wordt alleen bij uitzondering zonder waarde in de berichten opgenomen. Het onderstaande overzicht geeft de vier mogelijkheden die voorkomen.</p>
@@ -1813,8 +1791,11 @@ function setupPanel() {
 }
 
 function panelListener() {
-  /** @type {HTMLElement} */
+  /** @type {HTMLElement | null} */
   let panel = null;
+  /**
+   * @param {KeyboardEvent|MouseEvent} event
+   */
   return event => {
     const { target, type } = event;
 
@@ -1822,24 +1803,34 @@ function panelListener() {
 
     // For keys, we only care about Enter key to activate the panel
     // otherwise it's activated via a click.
-    if (type === "keydown" && event.key !== "Enter") return;
+    if (
+      type === "keydown" &&
+      /** @type {KeyboardEvent} */ (event).key !== "Enter"
+    )
+      return;
 
     const action = deriveAction(event);
 
     switch (action) {
       case "show": {
         hidePanel(panel);
-        /** @type {HTMLElement} */
+        /** @type {HTMLElement | null} */
         const dfn = target.closest("dfn, .index-term");
+        if (!dfn?.id) break;
         panel = document.getElementById(`dfn-panel-for-${dfn.id}`);
-        const coords = deriveCoordinates(event);
+        if (!panel) break;
+        const coords = deriveCoordinates(
+          /** @type {MouseEvent|KeyboardEvent} */ (event)
+        );
         displayPanel(dfn, panel, coords);
         break;
       }
       case "dock": {
-        panel.style.left = null;
-        panel.style.top = null;
-        panel.classList.add("docked");
+        if (panel) {
+          panel.style.left = "";
+          panel.style.top = "";
+          panel.classList.add("docked");
+        }
         break;
       }
       case "hide": {
@@ -1890,7 +1881,8 @@ function deriveAction(event) {
     if (hitALink) {
       return target.classList.contains("self-link") ? "hide" : "dock";
     }
-    const panel = target.closest(".dfn-panel");
+
+    const panel = /** @type {HTMLElement} */ (target.closest(".dfn-panel"));
     return panel.classList.contains("docked") ? "hide" : "none";
   }
   if (document.querySelector(".dfn-panel:not([hidden])")) {
@@ -1934,9 +1926,9 @@ function displayPanel(dfn, panel, { x, y }) {
     const newLeft = Math.max(MARGIN, x + MARGIN - panelRect.width);
     const newCaretOffset = left - newLeft;
     panel.style.left = `${newLeft}px`;
-    /** @type {HTMLElement} */
+    /** @type {HTMLElement | null} */
     const caret = panel.querySelector(".caret");
-    caret.style.left = `${newCaretOffset}px`;
+    if (caret) caret.style.left = `${newCaretOffset}px`;
   }
 
   // As it's a dialog, we trap focus.
@@ -1985,6 +1977,9 @@ function trapFocus(panel, dfn) {
 function createTrapListener(anchors, panel, dfn) {
   const lastIndex = anchors.length - 1;
   let currentIndex = 0;
+  /**
+   * @param {KeyboardEvent} event
+   */
   return event => {
     switch (event.key) {
       // Hitting "Tab" traps us in a nice loop around elements.
@@ -2014,7 +2009,7 @@ function createTrapListener(anchors, panel, dfn) {
   };
 }
 
-/** @param {HTMLElement} panel */
+/** @param {HTMLElement | null} panel */
 function hidePanel(panel) {
   if (!panel) return;
   panel.hidden = true;
