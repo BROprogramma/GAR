@@ -6,15 +6,15 @@ let respecConfig = {
     "Catalogus registratie ondergrond Grondwatersamenstellingsonderzoek",
   //subtitle: "Versie 1.0",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "wv",                   // Werkversie
-  specStatus: "wv", // Consultatieversie
+  specStatus: "wv",// Werkversie
+  //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                 // Norm
-  //specType: "ST", // Standaard
-  specType: "ST",                 // Informatie Model
+  specType: "ST", // Standaard
+  //specType: "IM",                 // Informatie Model
   //specType: "PR",                 // Praktijkrichtlijn
   //specType: "HR",                 // HandReiking
   //specType: "WA",                 // Werkafspraak
@@ -30,7 +30,7 @@ let respecConfig = {
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "gar",
   //-- publishDate is verplicht -------------------------------------------------------
- //-- De tag moet ingevuld zijn om de hyperlinks “Laatst gepubliceerde versie” en “Vorige versie” bovenaan de catalogus te tonen. Dit geldt ook voor een werkversie.
+  //-- De tag moet ingevuld zijn om de hyperlinks “Laatst gepubliceerde versie” en “Vorige versie” bovenaan de catalogus te tonen. Dit geldt ook voor een werkversie.
   publishDate: "2026-08-12",
   //custom header lines
   //publishVersion en previousVersion in de Werkversie invullen als “ “ (d.w.z. een spatie). De tag moet ingevuld zijn om de hyperlinks bovenaan de catalogus te tonen.
