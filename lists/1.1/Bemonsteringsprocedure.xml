@@ -28,7 +28,13 @@
 		<Waarde>NTA8017v2016</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Nederlandse technische afspraak NTA 8017, Monsterneming van grondwater ten behoeve van de monitoring van grondwaterkwaliteit, november 2016. Dit is een bijlage uit het Handboek Monitoring Grondwaterkwaliteit KRW provincies en RIVM.</Omschrijving>
+		<Omschrijving>Nederlandse technische afspraak NTA 8017, Monsterneming van grondwater ten behoeve van de monitoring van grondwaterkwaliteit, november 2016. Dit is een bijlage uit het Handboek Monitoring Grondwaterkwaliteit KRW provincies en RIVM. Deze norm is ingetrokken en vervangen door NTA 8017, 2026.</Omschrijving>
+	</Bemonsteringsprocedure>
+	<Bemonsteringsprocedure>
+		<Waarde>NTA8017v2026</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nederlandse technische afspraak NTA 8017, Monsterneming van grondwater ten behoeve van de monitoring van grondwaterkwaliteit, maart 2026. Dit is een bijlage uit het Handboek Monitoring Grondwaterkwaliteit KRW provincies en RIVM.</Omschrijving>
 	</Bemonsteringsprocedure>
 	<Bemonsteringsprocedure>
 		<Waarde>SIKBProtocol2002vanafV4</Waarde>
